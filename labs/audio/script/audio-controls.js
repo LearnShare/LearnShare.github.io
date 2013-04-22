@@ -35,6 +35,10 @@ window.onload=function(){
 		console.log("audio.volume: "+audio.volume+"\n");
 	};
 
+	// get src
+	document.getElementById("get_src").onclick=function(){
+		console.log("audio.src: "+audio.src+"\n");
+	};
 	// set src_music1
 	document.getElementById("play_music1").onclick=function(){
 		audio.src="./media/music1.mp3";
@@ -45,9 +49,9 @@ window.onload=function(){
 		audio.src="./media/music2.mp3";
 		console.log("play music2\n");
 	};
-	// get src
-	document.getElementById("get_src").onclick=function(){
-		console.log("audio.src: "+audio.src+"\n");
+	// get currentSrc
+	document.getElementById("get_current_src").onclick=function(){
+		console.log("audio.currentSrc: "+audio.currentSrc+"\n");
 	};
 
 	// get initialTime
