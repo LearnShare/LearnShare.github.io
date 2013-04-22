@@ -204,4 +204,91 @@ window.onload=function(){
 			console.log("("+ranges.start(i)+","+ranges.end(i)+")\n");
 		}
 	};
+	
+	// DOM events
+	
+	// abort
+	audio.addEventListener("abort",function(){
+		console.log("event:abort\n");
+	});
+	// canplay
+	audio.addEventListener("canplay",function(){
+		console.log("event:canplay\n");
+	});
+	// canplaythrough
+	audio.addEventListener("canplaythrough",function(){
+		console.log("event:canplaythrough\n");
+	});
+	// durationchange
+	audio.addEventListener("durationchange",function(){
+		console.log("event:durationchange\n");
+	});
+	// emptied
+	audio.addEventListener("emptied",function(){
+		console.log("event:emptied\n");
+	});
+	// ended
+	audio.addEventListener("ended",function(){
+		console.log("event:ended\n");
+	});
+	// loadeddata
+	audio.addEventListener("loadeddata",function(){
+		console.log("event:loadeddata\n");
+	});
+	// loadedmetadata
+	audio.addEventListener("loadedmetadata",function(){
+		console.log("event:loadedmetadata\n");
+	});
+	// loadstart
+	audio.addEventListener("loadstart",function(){
+		console.log("event:loadstart\n");
+	});
+	// pause
+	audio.addEventListener("pause",function(){
+		console.log("event:pause\n");
+	});
+	// play
+	audio.addEventListener("play",function(){
+		console.log("event:play\n");
+	});
+	// playing
+	audio.addEventListener("playing",function(){
+		console.log("event:playing\n");
+	});
+	// progress
+	audio.addEventListener("progress",function(){
+		console.log("event:progress\n");
+	});
+	// ratechange
+	audio.addEventListener("ratechange",function(){
+		console.log("event:ratechange\n");
+	});
+	// seeked
+	audio.addEventListener("seeked",function(){
+		console.log("event:seeked\n");
+	});
+	// seeking
+	audio.addEventListener("seeking",function(){
+		console.log("event:seeking\n");
+	});
+	// stalled
+	audio.addEventListener("stalled",function(){
+		console.log("event:stalled\n");
+	});
+	// suspend
+	audio.addEventListener("suspend",function(){
+		console.log("event:suspend\n");
+	});
+	// timeupdate
+	audio.addEventListener("timeupdate",function(){
+		console.log("event:timeupdate\n");
+	});
+	// volumechange
+	audio.addEventListener("volumechange",function(){
+		console.log("event:volumechange\n");
+	});
+	// waiting
+	audio.addEventListener("waiting",function(){
+		console.log("event:waiting\n");
+	});
 };
