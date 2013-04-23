@@ -4,13 +4,11 @@ window.onload=function(){
 	// play()
 	document.getElementById("play").onclick=function(){
 		audio.play();
-		updatePaused();
 		console.log("play");
 	};
 	// pause()
 	document.getElementById("pause").onclick=function(){
 		audio.pause();
-		updatePaused();
 		console.log("pause");
 	};
 	// get paused
@@ -25,13 +23,11 @@ window.onload=function(){
 	// set volume-
 	document.getElementById("volume_down").onclick=function(){
 		audio.volume-=0.2;
-		updateVolume();
 		console.log("volume-0.2");
 	};
 	// set volume+
 	document.getElementById("volume_up").onclick=function(){
 		audio.volume+=0.2;
-		updateVolume();
 		console.log("volume+0.2");
 	};
 	// get volume
@@ -48,8 +44,6 @@ window.onload=function(){
 		audio.src="./media/music1.mp3";
 		updateSrc();
 		updateCurrentSrc();
-		updateDuration();
-		updatePaused();
 		console.log("play music1");
 	};
 	// set src_music2
@@ -57,17 +51,11 @@ window.onload=function(){
 		audio.src="./media/music2.mp3";
 		updateSrc();
 		updateCurrentSrc();
-		updateDuration();
-		updatePaused();
 		console.log("play music2");
 	};
 	// set remove_music
 	document.getElementById("remove_music").onclick=function(){
 		audio.src="";
-		updateSrc();
-		updateCurrentSrc();
-		updateDuration();
-		updatePaused();
 		console.log("remove music");
 	};
 	// get currentSrc
@@ -196,13 +184,11 @@ window.onload=function(){
 	// set playbackRate-
 	document.getElementById("playback_rate_down").onclick=function(){
 		audio.playbackRate-=0.2;
-		updatePlaybackRate();
 		console.log("playbackRate-0.2");
 	};
 	// set playbackRate+
 	document.getElementById("playback_rate_up").onclick=function(){
 		audio.playbackRate+=0.2;
-		updatePlaybackRate();
 		console.log("playbackRate+0.2");
 	};
 	// get playbackRate
@@ -258,6 +244,10 @@ window.onload=function(){
 	});
 	// emptied
 	audio.addEventListener("emptied",function(){
+		updateSrc();
+		updateCurrentSrc();
+		updateDuration();
+		updatePaused();
 		console.log("event:emptied");
 	});
 	// ended
@@ -280,7 +270,6 @@ window.onload=function(){
 	// pause
 	audio.addEventListener("pause",function(){
 		updatePaused();
-		updatePlayed();
 		console.log("event:pause");
 	});
 	// play
@@ -294,6 +283,8 @@ window.onload=function(){
 	});
 	// progress
 	audio.addEventListener("progress",function(){
+		updateBuffered();
+		updateSeekable();
 		console.log("event:progress");
 	});
 	// ratechange
@@ -321,6 +312,7 @@ window.onload=function(){
 	audio.addEventListener("timeupdate",function(){
 		updateCurrentTime();
 		updateEnded();
+		updatePlayed();
 		console.log("event:timeupdate");
 	});
 	// volumechange
@@ -430,15 +422,42 @@ function updateReadyState(){
 }
 // buffered
 function updateBuffered(){
-	document.getElementById("buffered").innerHTML=audio.buffered;
+	var ranges=audio.buffered;
+	var str="";
+	var n=ranges.length;
+	for(var i=0;i<n;i++){
+		str+="("+ranges.start(i)+","+ranges.end(i)+")";
+		if(i!=n-1){
+			str+="<br />";
+		}
+	}
+	document.getElementById("buffered").innerHTML=str;
 }
 // seekable
 function updateSeekable(){
-	document.getElementById("seekable").innerHTML=audio.seekable;
+	var ranges=audio.seekable;
+	var str="";
+	var n=ranges.length;
+	for(var i=0;i<n;i++){
+		str+="("+ranges.start(i)+","+ranges.end(i)+")";
+		if(i!=n-1){
+			str+="<br />";
+		}
+	}
+	document.getElementById("seekable").innerHTML=str;
 }
 // played
 function updatePlayed(){
-	document.getElementById("played").innerHTML=audio.played;
+	var ranges=audio.played;
+	var str="";
+	var n=ranges.length;
+	for(var i=0;i<n;i++){
+		str+="("+ranges.start(i)+","+ranges.end(i)+")";
+		if(i!=n-1){
+			str+="<br />";
+		}
+	}
+	document.getElementById("played").innerHTML=str;
 }
 // error
 function updateError(){
