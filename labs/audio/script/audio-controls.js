@@ -257,14 +257,20 @@ window.onload=function(){
 	});
 	// loadeddata
 	audio.addEventListener("loadeddata",function(){
+		updateNetworkState();
+		updateReadyState();
 		console.log("event:loadeddata");
 	});
 	// loadedmetadata
 	audio.addEventListener("loadedmetadata",function(){
+		updateNetworkState();
+		updateReadyState();
 		console.log("event:loadedmetadata");
 	});
 	// loadstart
 	audio.addEventListener("loadstart",function(){
+		updateNetworkState();
+		updateReadyState();
 		console.log("event:loadstart");
 	});
 	// pause
@@ -283,6 +289,8 @@ window.onload=function(){
 	});
 	// progress
 	audio.addEventListener("progress",function(){
+		updateNetworkState();
+		updateReadyState();
 		updateBuffered();
 		updateSeekable();
 		console.log("event:progress");
