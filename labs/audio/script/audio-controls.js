@@ -262,6 +262,10 @@ window.onload=function(){
 	});
 	// loadeddata
 	audio.addEventListener("loadeddata",function(){
+		updateNetworkState();
+		updateReadyState();
+		updateBuffered();
+		updateSeekable();
 		console.log("event:loadeddata");
 	});
 	// loadedmetadata
