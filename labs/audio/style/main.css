@@ -1,0 +1,18 @@
+header{
+	border-bottom: solid 1px #CCC;
+}
+aside{
+	float: left;
+}
+table{
+	border-collapse: collapse;
+}
+td{
+	border: solid 2px #CCC;
+}
+tr td:first-child{
+	text-align: right;
+}
+article{
+	float: left;
+}

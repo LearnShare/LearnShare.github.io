@@ -3,29 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Audio API</title>
+	<link rel="stylesheet" href="./style/main.css" />
 	<script src="./script/audio-controls.js"></script>
 </head>
 <body>
-	<article>
+	<header>
 		<h1>HTML5 Audio API</h1>
-		<p>HTML5 Audio API demo by <a href="http://github.com/LearnShare" target="_blank">LearnShare</a></p>
+		<p>HTML5 Audio API demo by <a href="http://github.com/LearnShare" target="_blank">LearnShare</a>.</p>
 		<p>
-			Last update @2013-04-22 14:54:00<br />
+			Last update @2013-04-23 11:23:47<br />
+			+ add info table<br />
+			update @2013-04-22 14:54:00<br />
 			+ add DOM events<br />
-			update @2013-4-22 12:47:00<br />
+			update @2013-04-22 12:47:00<br />
 			+ add getCurrentSrc button
 		</p>
 		<p>
-			View code on <a href="http://github.com/LearnShare/LearnShare.github.io/tree/master/labs/audio/" target="_blank">LearnShare.github.io</a>.<br />
+			View code on <a href="http://github.com/LearnShare/LearnShare.github.io/tree/master/labs/audio/" target="_blank">LearnShare.github.io</a>. 
 			API reference: <a href="https://developer.mozilla.org/zh-CN/docs/DOM/HTMLMediaElement" target="_blank">HTMLMediaElement</a> and <a href="http://www.w3schools.com/tags/ref_av_dom.asp" target="_blank">Audio/Video DOM References</a>
 		</p>
+	</header>
+	<article>
 		<section>
-			<h2>audio element</h2>
+			<h2>Audio Element</h2>
 			<audio id="audio" src="./media/music1.mp3" controls="controls"></audio>
 			<p>Open the <strong>developer tool</strong> to view console logs.</p>
 		</section>
 		<section>
-			<h2>controls</h2>
+			<h2>Controls</h2>
 			<button id="play">play</button>
 			<button id="pause">pause</button>
 			<button id="get_paused">getPaused</button>
@@ -38,6 +43,7 @@
 			<button id="get_src">getSrc</button>
 			<button id="play_music1">playMusic1</button>
 			<button id="play_music2">playMusic2</button>
+			<button id="remove_music">removeMusic</button>
 			<button id="get_current_src">getCurrentSrc</button>
 			<br /><br />
 			<button id="get_initial_time">getInitialTime</button>
@@ -78,5 +84,106 @@
 			<button id="get_seekable">getSeekable</button>
 		</section>
 	</article>
+	<aside>
+		<section>
+			<h3>Player Attrs</h3>
+			<table>
+				<tr>
+					<td>autoplay:</td>
+					<td id="autoplay"></td>
+				</tr>
+				<tr>
+					<td>controls:</td>
+					<td id="controls"></td>
+				</tr>
+				<tr>
+					<td>loop:</td>
+					<td id="loop"></td>
+				</tr>
+				<tr>
+					<td>defaultMuted:</td>
+					<td id="default_muted"></td>
+				</tr>
+				<tr>
+					<td>preload:</td>
+					<td id="preload"></td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<h3>Player Info</h3>
+			<table>
+				<tr>
+					<td>src:</td>
+					<td id="src"></td>
+				</tr>
+				<tr>
+					<td>currentSrc:</td>
+					<td id="current_src"></td>
+				</tr>
+				<tr>
+					<td>duration:</td>
+					<td id="duration"></td>
+				</tr>
+				<tr>
+					<td>currentTime:</td>
+					<td id="current_time"></td>
+				</tr>
+				<tr>
+					<td>ended:</td>
+					<td id="ended"></td>
+				</tr>
+				<tr>
+					<td>paused:</td>
+					<td id="paused"></td>
+				</tr>
+				<tr>
+					<td>muted:</td>
+					<td id="muted"></td>
+				</tr>
+				<tr>
+					<td>volume:</td>
+					<td id="volume"></td>
+				</tr>
+				<tr>
+					<td>defaultPlaybackRate:</td>
+					<td id="default_playback_rate"></td>
+				</tr>
+				<tr>
+					<td>playbackRate:</td>
+					<td id="playback_rate"></td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<h3>Play status</h3>
+			<table>
+				<tr>
+					<td>networkState:</td>
+					<td id="network_state"></td>
+				</tr>
+				<tr>
+					<td>readyState:</td>
+					<td id="ready_state"></td>
+				</tr>
+				<tr>
+					<td>buffered:</td>
+					<td id="buffered"></td>
+				</tr>
+				<tr>
+					<td>seekable:</td>
+					<td id="seekable"></td>
+				</tr>
+				<tr>
+					<td>played:</td>
+					<td id="played"></td>
+				</tr>
+				<tr>
+					<td>error:</td>
+					<td id="error"></td>
+				</tr>
+			</table>
+		</section>
+	</aside>
 </body>
 </html>
