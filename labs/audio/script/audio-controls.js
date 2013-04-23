@@ -335,11 +335,12 @@ window.onload=function(){
 
 	updateAutoplay();
 	updateControls();
-	updateLoop();
-	updateSrc();
 	updateDefaultMuted();
+	updateDefaultPlaybackRate();
+	updateLoop();
 	updatePreload();
 
+	updateSrc();
 	updateCurrentSrc();
 	updateDuration();
 	updateCurrentTime();
@@ -347,7 +348,6 @@ window.onload=function(){
 	updatePaused();
 	updateMuted();
 	updateEnded();
-	updateDefaultPlaybackRate();
 	updatePlaybackRate();
 
 	updateNetworkState();
@@ -366,13 +366,17 @@ function updateAutoplay(){
 function updateControls(){
 	document.getElementById("controls").innerHTML=audio.controls;
 }
-// loop
-function updateLoop(){
-	document.getElementById("loop").innerHTML=audio.loop;
-}
 // defaultMuted
 function updateDefaultMuted(){
 	document.getElementById("default_muted").innerHTML=audio.defaultMuted;
+}
+// defaultPlaybackRate
+function updateDefaultPlaybackRate(){
+	document.getElementById("default_playback_rate").innerHTML=audio.defaultPlaybackRate;
+}
+// loop
+function updateLoop(){
+	document.getElementById("loop").innerHTML=audio.loop;
 }
 // preload
 function updatePreload(){
@@ -410,10 +414,6 @@ function updateMuted(){
 // volume
 function updateVolume(){
 	document.getElementById("volume").innerHTML=audio.volume;
-}
-// defaultPlaybackRate
-function updateDefaultPlaybackRate(){
-	document.getElementById("default_playback_rate").innerHTML=audio.defaultPlaybackRate;
 }
 // playbackRate
 function updatePlaybackRate(){
