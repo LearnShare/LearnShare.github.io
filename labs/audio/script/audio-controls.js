@@ -248,6 +248,11 @@ window.onload=function(){
 		updateCurrentSrc();
 		updateDuration();
 		updatePaused();
+		updateNetworkState();
+		updateReadyState();
+		updateBuffered();
+		updateSeekable();
+		updatePlayed();
 		console.log("event:emptied");
 	});
 	// ended
