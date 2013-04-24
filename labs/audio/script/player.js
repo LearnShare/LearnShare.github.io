@@ -34,6 +34,9 @@ window.onload=function(){
 			this.innerHTML=">";
 		}
 	};
+
+	buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
+	duration.innerHTML=timeConvert(audio.duration);
 };
 function timeConvert(t){
 	return Math.floor(t/60)+":"+Math.floor(t%60);
