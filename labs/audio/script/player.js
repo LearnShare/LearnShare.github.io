@@ -11,7 +11,9 @@ window.onload=function(){
 	
 	audio.addEventListener("progress",function(){
 		console.log("event:progress");
-		buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
+		if(audio.buffered.length>0){
+			buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
+		}
 	});
 
 	audio.addEventListener("durationchange",function(){
@@ -34,8 +36,9 @@ window.onload=function(){
 			this.innerHTML=">";
 		}
 	};
-
-	buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
+	if(audio.buffered.length>0){
+		buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
+	}
 	duration.innerHTML=timeConvert(audio.duration);
 };
 function timeConvert(t){
