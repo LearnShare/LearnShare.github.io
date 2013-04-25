@@ -9,10 +9,13 @@
 <body>
 	<header>
 		<h1>HTML5 Audio Player</h1>
-		<p>HTML5 Audio Player demo by <a href="http://github.com/LearnShare" target="_blank">LearnShare</a>.</p>
+		<p>HTML5 Audio Player by <a href="http://github.com/LearnShare" target="_blank">LearnShare</a>.</p>
+		<p>View <a href="./audio-apis.html" target="_blank">HTML5 Audio API demo</a>.</p>
 		<p>
-			Last update @2013-04-24 23:40:00<br />
-			+ download progress and play progress work
+			Last update @2013-04-25 19:32:35<br />
+			+ loop and volume control<br />
+			update @2013-04-24 23:40:00<br />
+			+ download progress and play progress
 		</p>
 		<p>
 			View code on <a href="http://github.com/LearnShare/LearnShare.github.io/tree/master/labs/audio/" target="_blank">LearnShare.github.io</a>. 
@@ -44,11 +47,13 @@
 				<div class="clear-float"></div>
 			</div>
 			<div class="controls">
-				<div class="btn-loop">loop</div>
+				<div id="btn-loop" class="btn-loop">loop:N</div>
 				<div class="btn-prev">&lt;&lt;</div>
 				<div id="btn-play" class="btn-play">&gt;</div>
 				<div class="btn-next">&gt;&gt;</div>
-				<div class="btn-volume">100</div>
+				<div id="btn-volume-up" class="btn-volume-up">+</div>
+				<div id="btn-volume" class="btn-volume">100</div>
+				<div id="btn-volume-down" class="btn-volume-down">-</div>
 				<div class="clear-float"></div>
 			</div>
 			<audio id="audio" src="./media/music1.mp3"></audio>
