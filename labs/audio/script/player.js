@@ -5,10 +5,17 @@ window.onload=function(){
 	var duration=document.getElementById("duration");
 
 	var progress_bar=document.getElementById("progress");
+	//console.log(progress_bar.clientWidth);
 	var progress_length=650;
 	var buffered=document.getElementById("buffered");
 	var progress=document.getElementById("progress");
 	var btn_volume=document.getElementById("btn-volume");
+
+	// update music info when first load
+	if(audio.buffered.length>0){
+		buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
+	}
+	duration.innerHTML=timeConvert(audio.duration);
 
 	// display downloading progress
 	audio.addEventListener("progress",function(){
@@ -28,6 +35,12 @@ window.onload=function(){
 	audio.addEventListener("timeupdate",function(){
 		progress.style.width=audio.currentTime/audio.duration*progress_length+"px";
 		current_time.innerHTML=timeConvert(audio.currentTime);
+	});
+
+	// seek current time
+	buffered.addEventListener("click",function(e){
+		//console.log("click:"+(e.offsetX));
+		audio.currentTime=e.offsetX/progress_length*audio.duration;
 	});
 
 	// play/pause
@@ -83,13 +96,8 @@ window.onload=function(){
 		}
 		btn_volume.innerHTML=Math.floor(audio.volume*100);
 	};
-
-	// update music info when first load
-	if(audio.buffered.length>0){
-		buffered.style.width=audio.buffered.end(0)/audio.duration*progress_length+"px";
-	}
-	duration.innerHTML=timeConvert(audio.duration);
 };
+
 function timeConvert(t){
 	return Math.floor(t/60)+":"+Math.floor(t%60);
 }
