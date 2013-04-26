@@ -82,6 +82,10 @@ window.onload=function(){
 	// volume-
 	document.getElementById("btn-volume-down").onclick=function(){
 		//console.log(audio.muted);
+		if(audio.muted){
+			audio.muted=false;
+			btn_volume.innerHTML=Math.floor(audio.volume*100);
+		}
 		if(btn_volume.innerHTML!="0"){
 			audio.volume-=0.2;
 		}
@@ -91,6 +95,10 @@ window.onload=function(){
 	// volume+
 	document.getElementById("btn-volume-up").onclick=function(){
 		//console.log(audio.muted);
+		if(audio.muted){
+			audio.muted=false;
+			btn_volume.innerHTML=Math.floor(audio.volume*100);
+		}
 		if(btn_volume.innerHTML!="100"){
 			audio.volume+=0.2;
 		}
