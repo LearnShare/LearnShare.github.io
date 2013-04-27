@@ -1,7 +1,10 @@
 body{
 	margin:0px;
 }
-
+header{
+	margin:10px;
+	border-top:solid 1px #CCC;
+}
 #parent{
 	margin-top:30px;
 	margin-left:50px;
