@@ -54,5 +54,40 @@ function xEncode(url){
 }
 
 function xDecode(location){
-	return location;
+	var a=parseInt(location.charAt(0));
+	// matrix and it's transpose matrix
+	var b=new Array();
+	var t=new Array();
+
+	var str=location.slice(1);
+
+	// it's length
+	var elen=str.length;
+	// matrix height or height-1
+	var ex=Math.floor(elen/a);
+	// letter number of matrix's last line
+	var ey=elen%a;
+
+	var m=0;
+	var n=0;
+	for(var i=0;i<a;i++){
+		n=(i<ey) ? ex+1 : ex;
+		b[i]=str.slice(m,m+n);
+		m+=n;
+	}
+
+	var max=(ey>0) ? ex+1 : ex;
+	var urlec="";
+	for(var i=0;i<max;i++){
+		t[i]="";
+		var k=(i<ex) ? a : ey;
+		for(var j=0;j<k;j++){
+			t[i]+=b[j][i];
+		}
+		urlec+=t[i];
+	}
+	var urlc=decodeURIComponent(urlec);
+	// replace all ^ width 
+	urlc=urlc.replace(/\^/g,"0");
+	return urlc;
 }
