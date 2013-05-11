@@ -1,3 +1,27 @@
 header{
 	border-bottom: solid 1px #CCC;
 }
+article{
+	width:800px;
+	margin:0 auto;
+}
+section{
+	margin-top:30px;
+}
+span{
+	display:block;
+	line-height:26px;
+}
+input,button{
+	display:inline-block;
+}
+input{
+	box-shadow:0 0 5px #AAF;
+	width:690px;
+	padding:5px;
+	border-width:0px;
+}
+button{
+	width:80px;
+	height:28px;
+}

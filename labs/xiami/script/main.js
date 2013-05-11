@@ -1,8 +1,13 @@
 window.onload=function(){
-	var url="http://f3.xiami.net/57447/421171/01 1769982588_1991960.mp3";
+	var input_url=document.getElementById("url");
+	var input_location=document.getElementById("location");
 
-	var result=xEncode(url);
-	console.log(result);
+	document.getElementById("encode").onclick=function(){
+		input_location.value=xEncode(input_url.value);
+	};
+	document.getElementById("decode").onclick=function(){
+		input_url.value=xDecode(input_location.value);
+	};
 };
 
 function xEncode(url){
@@ -46,4 +51,8 @@ function xEncode(url){
 		result+=t[i]; // add new line to result
 	}
 	return result;
+}
+
+function xDecode(location){
+	return location;
 }
