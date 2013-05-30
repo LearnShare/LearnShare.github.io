@@ -1,0 +1,17 @@
+#code,
+#div{
+	font-family: Georgia;
+	font-size:16px;
+	width: 100%;
+	height: 300px;
+	background-color: #EEF;
+	border: solid 1px #AAF;
+	overflow: auto;
+}
+#div{
+	white-space: pre;
+	background-color: #333;
+}
+#div span:hover{
+	outline: solid 1px #AAF;
+}

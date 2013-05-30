@@ -1,0 +1,40 @@
+.js .error{
+	color: #F66;
+	background-color: #555;
+}
+.js .punctuation{
+	color: #DDA;
+}
+.js .operator{
+	color: #A66;
+}
+.js .comment{
+	color: #666;
+}
+.js .whitespace{
+
+}
+.js .statement{
+	color: #AA6;
+}
+.js .value{
+	color: #FFA;
+}
+.js .object_operator{
+	color: #AAF;
+}
+.js .object_test{
+	color: #DDA;
+}
+.js .obj{
+	color: #FFA;
+}
+.js .identifier{
+	color: #EEF;
+}
+.js .string{
+	color: #FF6;
+}
+.js .number{
+	color: #88F;
+}
