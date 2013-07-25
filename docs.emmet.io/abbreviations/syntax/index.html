@@ -1,0 +1,520 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<title>缩写语法</title>
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<link rel="stylesheet" href="../../20130511182733/c/main.css" />
+
+<script>document.write('<script src="http://docs.emmet.io/j/'&#32;+&#32;('__proto__'&#32;in&#32;{}&#32;?&#32;'zepto.min'&#32;:&#32;'jquery-1.8.2.min')&#32;+&#32;'.js"><\/script>')</script>
+
+<script src="../../20130428175712/j/movie.js"></script>
+
+<script src="../../20130428175712/j/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="page-header">
+			<h1 class="site-title">
+				
+				<a href="../../index.html">Emmet 文档</a>
+			
+			</h1>
+			<p class="back-to-main"><a href="http://emmet.io">返回主页</a></p>
+			<p class="donate"><a href="http://emmet.io/donate/" class="btn btn-danger">捐赠</a></p>
+			<nav>
+				
+
+<ul class="nav">
+	
+		<li class="nav__item nav__item_selected">
+			
+				<a href="../index.html">缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item nav__item_selected">
+			
+				<strong>语法</strong>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../types/index.html">元素类型</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../implicit-names/index.html">Implicit tag names</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../lorem-ipsum/index.html">“Lorem Ipsum” generator</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/index.html">CSS Abbreviations</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/vendor-prefixes/index.html">Vendor prefixes</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/gradients/index.html">Gradients</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/fuzzy-search/index.html">Fuzzy search</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/index.html">Actions</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/expand-abbreviation/index.html">Expand Abbreviation</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/match-pair/index.html">Match Tag Pair</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-pair/index.html">Go to Matching Pair</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/wrap-with-abbreviation/index.html">Wrap with Abbreviation</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-edit-point/index.html">Go to Edit Point</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/select-item/index.html">Select Item</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/toggle-comment/index.html">Toggle Comment</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/split-join-tag/index.html">Split/Join Tag</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/remove-tag/index.html">Remove Tag</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/merge-lines/index.html">Merge Lines</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/update-image-size/index.html">Update Image Size</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/evaluate-math/index.html">Evaluate Math Expression</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/inc-dec-number/index.html">Increment/Decrement Number</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/reflect-css-value/index.html">Reflect CSS Value</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/base64/index.html">Encode/Decode Image to data:URL</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/index.html">Filters</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/bem/index.html">Yandex BEM/OOCSS</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/index.html">Customization</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/snippets/index.html">snippets.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/preferences/index.html">preferences.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/syntax-profiles/index.html">syntaxProfiles.json</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../cheat-sheet/index.html">Cheat Sheet</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			</nav>
+		</header>
+		<section class="page-content">
+			<h1><a name="abbreviations-syntax" href="index.html#abbreviations-syntax" class="anchor"></a>缩写语法</h1>
+<p>Emmet 试用类 CSS 选择器语法来描述元素在生成树中的位置及元素属性。</p>
+<h2><a name="elements" href="index.html#elements" class="anchor"></a>元素</h2>
+<p>你可以使用元素名，如：<code>div</code> 或 <code>p</code> 来 <em>生成</em> HTML 标签。 Emmet 没有预定义的可用标签名，所以你可以将任何词语转换为标签: <code>div</code> → <code>&lt;div&gt;&lt;/div&gt;</code>, <code>foo</code> → <code>&lt;foo&gt;&lt;/foo&gt;</code> 等等。</p>
+<h2><a name="nesting-operators" href="index.html#nesting-operators" class="anchor"></a>操作符嵌套</h2>
+<p>操作符嵌套用来将元素放到生成树中: 包括嵌套和相邻关系</p>
+<h3><a name="child-gt" href="index.html#child-gt" class="anchor"></a>嵌套关系: <code>&gt;</code></h3>
+<p>可使用 <code>&gt;</code> 操作符将元素嵌套在其他元素中:</p>
+<pre><code><span class="erlang"><span class="keyword">div</span>>ul>li</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span>
+    <span class="tag">&lt;<span class="title">ul</span>></span>
+        <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;/<span class="title">ul</span>></span>
+<span class="tag">&lt;/<span class="title">div</span>></span></span></code></pre>
+<h3><a name="sibling-" href="index.html#sibling-" class="anchor"></a>相邻关系: <code>+</code></h3>
+<p>试用 <code>+</code> 操作符将元素放置在其他元素旁，在同一级中:</p>
+<pre><code><span class="erlang"><span class="keyword">div</span>+p+bq</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span><span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">p</span>></span><span class="tag">&lt;/<span class="title">p</span>></span>
+<span class="tag">&lt;<span class="title">blockquote</span>></span><span class="tag">&lt;/<span class="title">blockquote</span>></span></span></code></pre>
+<h3><a name="climb-up-" href="index.html#climb-up-" class="anchor"></a>上升: <code>^</code></h3>
+<p>使用 <code>&gt;</code> 操作符，所有后面的元素将会被逐级嵌套，成为子元素:</p>
+<pre><code><span class="erlang"><span class="keyword">div</span>+<span class="keyword">div</span>>p>span+em </span></code></pre>
+<p>...展开为 </p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span><span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">div</span>></span>
+    <span class="tag">&lt;<span class="title">p</span>></span><span class="tag">&lt;<span class="title">span</span>></span><span class="tag">&lt;/<span class="title">span</span>></span><span class="tag">&lt;<span class="title">em</span>></span><span class="tag">&lt;/<span class="title">em</span>></span><span class="tag">&lt;/<span class="title">p</span>></span>
+<span class="tag">&lt;/<span class="title">div</span>></span></span></code></pre>
+<p>使用 <code>^</code> 操作符, 可以返回到生成树的上一层，并将后面的元素插入到该层中:</p>
+<pre><code><span class="erlang"><span class="keyword">div</span>+<span class="keyword">div</span>>p>span+em^bq</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span><span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">div</span>></span>
+    <span class="tag">&lt;<span class="title">p</span>></span><span class="tag">&lt;<span class="title">span</span>></span><span class="tag">&lt;/<span class="title">span</span>></span><span class="tag">&lt;<span class="title">em</span>></span><span class="tag">&lt;/<span class="title">em</span>></span><span class="tag">&lt;/<span class="title">p</span>></span>
+    <span class="tag">&lt;<span class="title">blockquote</span>></span><span class="tag">&lt;/<span class="title">blockquote</span>></span>
+<span class="tag">&lt;/<span class="title">div</span>></span></span></code></pre>
+<p>可以使用任意多个 <code>^</code> 操作符, 每一个会返回到上一层一次:</p>
+<pre><code><span class="erlang"><span class="keyword">div</span>+<span class="keyword">div</span>>p>span+em^^^bq</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span><span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">div</span>></span>
+    <span class="tag">&lt;<span class="title">p</span>></span><span class="tag">&lt;<span class="title">span</span>></span><span class="tag">&lt;/<span class="title">span</span>></span><span class="tag">&lt;<span class="title">em</span>></span><span class="tag">&lt;/<span class="title">em</span>></span><span class="tag">&lt;/<span class="title">p</span>></span>
+<span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">blockquote</span>></span><span class="tag">&lt;/<span class="title">blockquote</span>></span></span></code></pre>
+<h3><a name="multiplication-" href="index.html#multiplication-" class="anchor"></a>递增: <code>*</code></h3>
+<p>使用 <code>*</code> 操作符，可以定义元素生成的次数:</p>
+<pre><code><span class="http"><span class="attribute">ul>li*5</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">ul</span>></span>
+    <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+<span class="tag">&lt;/<span class="title">ul</span>></span></span></code></pre>
+<h3><a name="grouping-" href="index.html#grouping-" class="anchor"></a>分组: <code>()</code></h3>
+<p>用户可以在复杂的缩写中使用括号来分组子树:</p>
+<pre><code><span class="erlang"><span class="keyword">div</span>>(header>ul>li*<span class="number">2</span>>a)+footer>p</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span>
+    <span class="tag">&lt;<span class="title">header</span>></span>
+        <span class="tag">&lt;<span class="title">ul</span>></span>
+            <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span><span class="tag">&lt;/<span class="title">a</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+            <span class="tag">&lt;<span class="title">li</span>></span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span><span class="tag">&lt;/<span class="title">a</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+        <span class="tag">&lt;/<span class="title">ul</span>></span>
+    <span class="tag">&lt;/<span class="title">header</span>></span>
+    <span class="tag">&lt;<span class="title">footer</span>></span>
+        <span class="tag">&lt;<span class="title">p</span>></span><span class="tag">&lt;/<span class="title">p</span>></span>
+    <span class="tag">&lt;/<span class="title">footer</span>></span>
+<span class="tag">&lt;/<span class="title">div</span>></span></span></code></pre>
+<p>如果你在使用 DOM, 你或许会想到文档片段分组: 每组都包含缩写子树，而且后面所有元素都会作为子树插入到组的首个元素中。 </p>
+<p>可以嵌套每个分组，并使用多个 <code>*</code> 操作符将它们组合起来:</p>
+<pre><code><span class="lisp"><span class="list">(<span class="title">div>dl></span><span class="body"><span class="list">(<span class="title">dt+dd</span><span class="body"></span>)</span><span class="variable">*3)+footer>p</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span>></span>
+    <span class="tag">&lt;<span class="title">dl</span>></span>
+        <span class="tag">&lt;<span class="title">dt</span>></span><span class="tag">&lt;/<span class="title">dt</span>></span>
+        <span class="tag">&lt;<span class="title">dd</span>></span><span class="tag">&lt;/<span class="title">dd</span>></span>
+        <span class="tag">&lt;<span class="title">dt</span>></span><span class="tag">&lt;/<span class="title">dt</span>></span>
+        <span class="tag">&lt;<span class="title">dd</span>></span><span class="tag">&lt;/<span class="title">dd</span>></span>
+        <span class="tag">&lt;<span class="title">dt</span>></span><span class="tag">&lt;/<span class="title">dt</span>></span>
+        <span class="tag">&lt;<span class="title">dd</span>></span><span class="tag">&lt;/<span class="title">dd</span>></span>
+    <span class="tag">&lt;/<span class="title">dl</span>></span>
+<span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">footer</span>></span>
+    <span class="tag">&lt;<span class="title">p</span>></span><span class="tag">&lt;/<span class="title">p</span>></span>
+<span class="tag">&lt;/<span class="title">footer</span>></span></span></code></pre>
+<p>借助分组, 你可以通过简单的缩写生成一整页代码。</p>
+<h2><a name="attribute-operators" href="index.html#attribute-operators" class="anchor"></a>属性操作符</h2>
+<p>属性操作符用来修改生成元素的属性。例如，可以快速的将 <code>class</code> 属性添加到生成的 HTML 和 XML 元素中。</p>
+<h3><a name="id-and-class" href="index.html#id-and-class" class="anchor"></a>ID 和 CLASS</h3>
+<p>在 CSS 中, 我们使用 <code>elem#id</code> 和 <code>elem.class</code> 标记来访问指定 <code>id</code> 或 <code>class</code> 属性的元素。在 Emmet 中, 可以使用类似的语法来 <em>添加</em> 这些属性到指定的元素中:</p>
+<pre><code><span class="delphi"><span class="keyword">div</span>#header+<span class="keyword">div</span>.page+<span class="keyword">div</span>#footer.class1.class2.class3</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"header"</span>></span><span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"page"</span>></span><span class="tag">&lt;/<span class="title">div</span>></span>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"footer"</span> <span class="attribute">class</span>=<span class="value">"class1 class2 class3"</span>></span><span class="tag">&lt;/<span class="title">div</span>></span></span></code></pre>
+<h3><a name="custom-attributes" href="index.html#custom-attributes" class="anchor"></a>自定义属性</h3>
+<p>可使用 <code>[attr]</code> 标记 (如同在 CSS 中那样) 来为元素添加自定义属性:</p>
+<pre><code><span class="ini"><span class="setting">td[title=<span class="value"><span class="string">"Hello world!"</span> colspan=<span class="number">3</span>]</span></span></span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">td</span> <span class="attribute">title</span>=<span class="value">"Hello world!"</span> <span class="attribute">colspan</span>=<span class="value">"3"</span>></span><span class="tag">&lt;/<span class="title">td</span>></span></span></code></pre>
+<ul>
+<li>可以在方括号中使用无限个属性。</li>
+<li>无需指定属性值: <code>td[colspan title]</code> 将生成 <code>&lt;td colspan=&quot;&quot; title=&quot;&quot;&gt;</code> 在每个空属性位置生成制表位 (如果你的编辑器支持)。</li>
+<li>可使用单引号或双引号包含属性值</li>
+<li>如果属性值中没有空格，则可以不使用引号包含: <code>td[title=hello colspan=3]</code> 也可以。</li>
+</ul>
+<h3><a name="item-numbering-" href="index.html#item-numbering-" class="anchor"></a>项目编号: <code>$</code></h3>
+<p>使用多个 <code>*</code> 操作符可以重复元素, 而使用 <code>$</code> 可以给他们 <em>编号</em> 。 将 <code>$</code> 操作符放置到元素名, 属性名或属性值中，即可将当前的重复次数插入其中:</p>
+<pre><code><span class="ruby">ul>li.item<span class="variable">$*</span><span class="number">5</span></span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">ul</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item1"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item2"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item3"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item4"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item5"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+<span class="tag">&lt;/<span class="title">ul</span>></span></span></code></pre>
+<p>可以并排使用多个 <code>$</code> 来插入固定宽度的数值（以 0 占位）:</p>
+<pre><code><span class="ruby">ul>li.item<span class="variable">$$</span><span class="variable">$*</span><span class="number">5</span></span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">ul</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item001"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item002"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item003"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item004"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item005"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+<span class="tag">&lt;/<span class="title">ul</span>></span></span></code></pre>
+<h4><a name="changing-numbering-base-and-direction" href="index.html#changing-numbering-base-and-direction" class="anchor"></a>修改编号基数及方向</h4>
+<p>使用 <code>@</code> 修饰符, 可以修改编号方向 (递增或递减) 和基数 (如 起始编号)。</p>
+<p>例如，修改编号方向, 在 <code>$</code> 之后添加 <code>@-</code> :</p>
+<pre><code><span class="perl">ul>li.item<span class="variable">$@</span>-<span class="variable">*5</span></span></code></pre>
+<p>…展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">ul</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item5"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item4"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item3"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item2"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item1"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+<span class="tag">&lt;/<span class="title">ul</span>></span></span></code></pre>
+<p>要修改计数基数, 在 <code>$</code> 中添加 <code>@N</code> 修饰符:</p>
+<pre><code><span class="perl">ul>li.item<span class="variable">$@</span><span class="number">3</span><span class="variable">*5</span></span></code></pre>
+<p>…展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">ul</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item3"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item4"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item5"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item6"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item7"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+<span class="tag">&lt;/<span class="title">ul</span>></span></span></code></pre>
+<p>可以将两个修饰符一起使用:</p>
+<pre><code><span class="perl">ul>li.item<span class="variable">$@</span>-<span class="number">3</span><span class="variable">*5</span></span></code></pre>
+<p>…展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">ul</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item7"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item6"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item5"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item4"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+    <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"item3"</span>></span><span class="tag">&lt;/<span class="title">li</span>></span>
+<span class="tag">&lt;/<span class="title">ul</span>></span></span></code></pre>
+<h2><a name="text-" href="index.html#text-" class="anchor"></a>文本: <code>{}</code></h2>
+<p>可以使用大括号为元素添加文本:</p>
+<pre><code><span class="http"><span class="attribute">a{Click me}</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span>Click me<span class="tag">&lt;/<span class="title">a</span>></span></span></code></pre>
+<p>注意： <code>{text}</code> 被当做独立的元素解析和使用 (如, <code>div</code>, <code>p</code> 等.) 担当作为子元素使用时会有不同的含义。 如, <code>a{click}</code> 和 <code>a&gt;{click}</code> 的展开值相同, 但 <code>a{click}+b{here}</code> 和 <code>a&gt;{click}+b{here}</code> 不同:</p>
+<pre><code><span class="xml"><span class="comment">&lt;!-- a{click}+b{here} --></span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span>click<span class="tag">&lt;/<span class="title">a</span>></span><span class="tag">&lt;<span class="title">b</span>></span>here<span class="tag">&lt;/<span class="title">b</span>></span>
+
+<span class="comment">&lt;!-- a>{click}+b{here} --></span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span>click<span class="tag">&lt;<span class="title">b</span>></span>here<span class="tag">&lt;/<span class="title">b</span>></span><span class="tag">&lt;/<span class="title">a</span>></span></span></code></pre>
+<p>第二个示例中， <code>&lt;b&gt;</code> 元素被放置在 <code>&lt;a&gt;</code> 元素 <em>之中</em> 。 不同之处在于: 当 <code>{text}</code> 放置在元素之后时, 他不改变父元素的内容。 这里有一个更复杂的例子，展示了它的重要性:</p>
+<pre><code><span class="bash">p>{Click }+a{here}+{ to <span class="keyword">continue</span>}</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">p</span>></span>Click <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span>here<span class="tag">&lt;/<span class="title">a</span>></span> to continue<span class="tag">&lt;/<span class="title">p</span>></span></span></code></pre>
+<p>在这个例子中, 为了将 <code>Click here to continue</code> 添加到 <code>&lt;p&gt;</code> 元素中， 我们在 <code>p</code> 后使用 <code>&gt;</code> 操作符来降级子树, 但是在 <code>a</code> 元素中不需要这么做, 因为我们只需要在你 <code>&lt;a&gt;</code> 元素中插入 <code>here</code> 一词, 而不需要修改父元素的内容.</p>
+<p>作为对照, 这里有一个不使用 <code>&gt;</code> 操作符的缩写:</p>
+<pre><code><span class="bash">p{Click }+a{here}+{ to <span class="keyword">continue</span>}</span></code></pre>
+<p>...展开为</p>
+<pre><code><span class="xml"><span class="tag">&lt;<span class="title">p</span>></span>Click <span class="tag">&lt;/<span class="title">p</span>></span>
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">""</span>></span>here<span class="tag">&lt;/<span class="title">a</span>></span> to continue</span></code></pre>
+<h2><a name="notes-on-abbreviation-formatting" href="index.html#notes-on-abbreviation-formatting" class="anchor"></a>缩写格式注意事项</h2>
+<p>当你熟悉 Emmet 的缩写语法之后, 你可能会想要添加一些格式，是你的缩写更加可读. 例如, 在元素和操作符之间添加空格:</p>
+<pre><code><span class="lisp"><span class="list">(<span class="title">header</span><span class="body"> > ul.nav > li<span class="variable">*5) + footer</span></code></pre>
+<p>但这个缩写不会被解析, 因为空格是 <em>终止符</em> ，Emmet 会停止对所写的解析.</p>
+<p>许多用户错误地认为每条缩写都应该写到新的一行, 这是错误的: 你可以在 <em>文本的任何位置</em> 书写和展开缩写:</p>
+<textarea class="movie-def">...
+</textarea>
+
+<p>这就是为什么 Emmet 需要使用终止符 (如 空格) 来了解该在何处停止解析. 如果你仍然想要使用复杂的格式来使缩写易读:</p>
+<ul>
+<li>缩写并不是模板语言，他们不需要 “可读”, 她们只需要 “可快速展开和移除”.</li>
+<li>你并不需要编写复杂的缩写。 “输入” 才是 Web 开发中最慢的环节。 你会很快发现编写复杂的缩写比简单的更慢慢，而且更易出错。</li>
+</ul>
+
+
+
+		</section>
+		<div class="clear"></div>
+		<footer class="page-footer">
+			<p class="small-text">Support: <a href="mailto:info@emmet.io">info@emmet.io</a><br />Created with <a href="https://github.com/bevry/docpad">DocPad</a> and <a href="http://gruntjs.com">Grunt.js</a><br />Minimal theme by <a href="https://github.com/orderedlist/minimal">orderedlist</a></p>
+			<p class="small-text"><a href="https://github.com/emmetio/emmet-docs/tree/master/src/documents/abbreviations/syntax/index.html.md">View page source on GitHub</a></p>
+		</footer>
+	</div>
+	
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4523560-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

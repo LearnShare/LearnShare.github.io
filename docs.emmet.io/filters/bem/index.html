@@ -1,0 +1,391 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<title>Yandex BEM/OOCSS</title>
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<link rel="stylesheet" href="../../20130511182733/c/main.css" />
+
+<script>document.write('<script src="http://docs.emmet.io/j/'&#32;+&#32;('__proto__'&#32;in&#32;{}&#32;?&#32;'zepto.min'&#32;:&#32;'jquery-1.8.2.min')&#32;+&#32;'.js"><\/script>')</script>
+
+<script src="../../20130428175712/j/movie.js"></script>
+
+<script src="../../20130428175712/j/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="page-header">
+			<h1 class="site-title">
+				
+				<a href="../../index.html">Emmet Documentation</a>
+			
+			</h1>
+			<p class="back-to-main"><a href="http://emmet.io">Back to main website</a></p>
+			<p class="donate"><a href="http://emmet.io/donate/" class="btn btn-danger">Donate</a></p>
+			<nav>
+				
+
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/index.html">Abbreviations</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/syntax/index.html">Syntax</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/types/index.html">Element types</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/implicit-names/index.html">Implicit tag names</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/lorem-ipsum/index.html">“Lorem Ipsum” generator</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/index.html">CSS Abbreviations</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/vendor-prefixes/index.html">Vendor prefixes</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/gradients/index.html">Gradients</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/fuzzy-search/index.html">Fuzzy search</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/index.html">Actions</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/expand-abbreviation/index.html">Expand Abbreviation</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/match-pair/index.html">Match Tag Pair</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-pair/index.html">Go to Matching Pair</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/wrap-with-abbreviation/index.html">Wrap with Abbreviation</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-edit-point/index.html">Go to Edit Point</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/select-item/index.html">Select Item</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/toggle-comment/index.html">Toggle Comment</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/split-join-tag/index.html">Split/Join Tag</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/remove-tag/index.html">Remove Tag</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/merge-lines/index.html">Merge Lines</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/update-image-size/index.html">Update Image Size</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/evaluate-math/index.html">Evaluate Math Expression</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/inc-dec-number/index.html">Increment/Decrement Number</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/reflect-css-value/index.html">Reflect CSS Value</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/base64/index.html">Encode/Decode Image to data:URL</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item nav__item_selected">
+			
+				<a href="../index.html">Filters</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item nav__item_selected">
+			
+				<strong>Yandex BEM/OOCSS</strong>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/index.html">Customization</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/snippets/index.html">snippets.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/preferences/index.html">preferences.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/syntax-profiles/index.html">syntaxProfiles.json</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../cheat-sheet/index.html">Cheat Sheet</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			</nav>
+		</header>
+		<section class="page-content">
+			<h1><a name="yandex-bemoocss" href="index.html#yandex-bemoocss" class="anchor"></a>Yandex BEM/OOCSS</h1>
+<p>If you’re writing your HTML and CSS code in <a href="http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a>-style, <a href="http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/">Yandex’s BEM</a> style specifically, you will like this filter. It provides some aliases and automatic insertions of common block and element names in classes.</p>
+<p>In short, BEM introduces three concept types for CSS classes: Block, Element and Modifier. <em>Block</em> is a some sort of a namespace for a semantic sections of HTML page, for example, <code>search-form</code>. <em>Element</em> is a part of section, for example, <code>serch-form__query-string</code>. <em>Modifiers</em> define variations of block and elements: <code>search-form_wide</code> or <code>search-form_narrow</code>. Elements in class names are separated with <code>__</code> (double underscore) and modifiers are separated with <code>_</code> (single underscore).</p>
+<p>While BEM/OOCSS is a great way to maintain and re-use CSS, it may be very tedious to write these class names in plain HTML, even with help of Emmet abbreviations. You have to write the same block or element name in every element of abbreviation:</p>
+<pre><code><span class="objectivec">form<span class="variable">.search</span>-form<span class="variable">.search</span>-form_wide>input<span class="variable">.search</span>-form__query-string+input:s<span class="variable">.search</span>-form__btn<span class="variable">.search</span>-form__btn_large</span></code></pre>
+<p>The <code>bem</code> filter allows you to make abbreviation a bit sorter:</p>
+<pre><code><span class="objectivec">form<span class="variable">.search</span>-form<span class="variable">._wide</span>>input.-query-string+input:s.-btn_large|bem</span></code></pre>
+<h2><a name="how-it-works" href="index.html#how-it-works" class="anchor"></a>How it works</h2>
+<p>BEM filter introduces a few class name prefixes for concept types: <code>__</code> or <code>-</code> as <em>element prefix</em> and <code>_</code> as <em>modifier prefix</em>. Whenever you begin the class name with one of these prefixes, filter will resolve the rest parts for you:</p>
+<ul>
+<li>if you start class name element prefix, filter will resolve <em>block name</em> from <em>parent</em> node;</li>
+<li>if you start class name with modifier prefix, filter will resolve <em>block name</em> and/or <em>element name</em> from <em>current or parent</em> nodes;</li>
+<li>if you use both element and modifier prefixes, filter will resolve <em>block name</em> from parent node and output both “unmodified” and “modified” classes on element;</li>
+<li>if you use <em>multiple</em> element prefixes, filter with resolve block name from <em>nth</em> parent node.</li>
+</ul>
+<p>Here are a few examples:</p>
+<table>
+<tr>
+<th>Abbreviation</th>
+<th>Output</th>
+</tr>
+<tr>
+<td><code>.b_m</code></td>
+<td>
+<pre><code>&lt;div class=&quot;b b_m&quot;&gt;&lt;/div&gt;</code></pre>
+</td>
+</tr>
+
+<tr>
+<td><code>.b_m1._m2</code></td>
+<td>
+<pre><code>&lt;div class=&quot;b b_m1 b_m2&quot;&gt;&lt;/div&gt;</code></pre>
+</td>
+</tr>
+
+<tr>
+<td><code>.b&gt;._m</code></td>
+<td>
+<pre><code>&lt;div class=&quot;b&quot;&gt;
+    &lt;div class=&quot;b b_m&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</td>
+</tr>
+
+<tr>
+<td><code>.b1&gt;.b2_m1&gt;.-e1+.--e2_m2</code></td>
+<td>
+<pre><code>&lt;div class=&quot;b1&quot;&gt;
+    &lt;div class=&quot;b2 b2_m1&quot;&gt;
+        &lt;div class=&quot;b2__e1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;b1__e2 b1__e2_m2&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</td>
+</tr>
+
+</table>
+
+<p>Remember that you can always make <code>bem</code> filter a default one for HTML syntax.</p>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_shortname = 'emmetdocs';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		</section>
+		<div class="clear"></div>
+		<footer class="page-footer">
+			<p class="small-text">Support: <a href="mailto:info@emmet.io">info@emmet.io</a><br />Created with <a href="https://github.com/bevry/docpad">DocPad</a> and <a href="http://gruntjs.com">Grunt.js</a><br />Minimal theme by <a href="https://github.com/orderedlist/minimal">orderedlist</a></p>
+			<p class="small-text"><a href="https://github.com/emmetio/emmet-docs/tree/master/src/documents/filters/bem/index.html.md">View page source on GitHub</a></p>
+		</footer>
+	</div>
+	
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4523560-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
