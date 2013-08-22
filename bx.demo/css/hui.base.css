@@ -1,0 +1,1113 @@
+/*
+* hui-p
+*/
+.hui p,
+p.hui-p{
+	font-size: 1em;
+	line-height: 1.6em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+.hui p.align-center,
+p.hui-p.align-center,
+.hui div.align-center,
+div.hui-div.align-center,
+.hui h1.align-center,
+h1.hui-h1.align-center,
+.hui h2.align-center,
+h2.hui-h2.align-center,
+.hui h3.align-center,
+h3.hui-h3.align-center,
+.hui h4.align-center,
+h4.hui-h4.align-center,
+.hui h5.align-center,
+h5.hui-h5.align-center,
+.hui h6.align-center,
+h6.hui-h6.align-center{
+	text-align: center;
+}
+.hui p.align-right,
+p.hui-p.align-right,
+.hui div.align-right,
+div.hui-div.align-right,
+.hui h1.align-right,
+h1.hui-h1.align-right,
+.hui h2.align-right,
+h2.hui-h2.align-right,
+.hui h3.align-right,
+h3.hui-h3.align-right,
+.hui h4.align-right,
+h4.hui-h4.align-right,
+.hui h5.align-right,
+h5.hui-h5.align-right,
+.hui h6.align-right,
+h6.hui-h6.align-right{
+	text-align: right;
+}
+/*
+* hui-text*
+*/
+.hui a,
+a.hui-a{
+	color: #429EE5;
+}
+.hui a:visited,
+a.hui-a:visited{
+	color: #F560B8;
+}
+.hui a:hover,
+a.hui-a:hover{
+	color: #8FCEFF;
+}
+.hui a:active,
+a.hui-a:active{
+	color: #D508BF;
+}
+.hui abbr,
+abbr.hui-abbr{
+	display: inline-block;
+	padding: 0 3px;
+	border-bottom: dotted 2px #DDE;
+}
+.hui mark,
+mark.hui-mark{
+	display: inline-block;
+	padding: 0 3px;
+	background-color: #FFCBCB;
+}
+.hui code,
+code.hui-code{
+	display: inline-block;
+	padding: 0 3px;
+	border: solid 1px #DDE;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #F6F6FF;
+}
+.hui pre,
+pre.hui-pre{
+	display: block;
+	margin: 1em;
+	padding: 5px;
+	border: solid 1px #DDE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #F6F6FF;
+}
+.hui pre div,
+pre.hui-pre div{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: solid 1px #DDE;
+}
+.hui pre code,
+pre.hui-pre code{
+	display: block;
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+.hui q,
+q.hui-q{
+	display: inline-block;
+	padding: 0 3px;
+}
+.hui blockquote,
+blockquote.hui-blockquote{
+	display: block;
+	margin: 1em;
+	padding: 5px;
+	border-left: solid 5px #DDE;
+}
+.hui blockquote blockquote,
+blockquote.hui-blockquote blockquote{
+	margin-left: 0.3em;
+}
+.hui small,
+small.hui-small,
+.hui sub,
+sub.hui-sub,
+.hui sup,
+sup.hui-sup{
+	font-size: 0.6em;
+}
+/*
+* hui-h1~hui-h6
+*/
+.hui h1,
+h1.hui-h1{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.hui h2,
+h2.hui-h2{
+	font-size: 26px;
+	font-weight: 600;
+	margin-top: 26px;
+	margin-bottom: 26px;
+	border-bottom: solid 2px #DDD;
+}
+.hui h3,
+h3.hui-h3{
+	font-size: 22px;
+	font-weight: 600;
+	color: #0882FF;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+.hui h4,
+h4.hui-h4{
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+.hui h5,
+h5.hui-h5{
+	font-size: 14px;
+	font-weight: 600;
+	color: #0882FF;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.hui h6,
+h6.hui-h6{
+	font-size: 12px;
+	font-weight: 600;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+/*
+* hui-img
+*/
+/* hui-img.border */
+.hui img.border,
+img.hui-img.border{
+	border: solid 1px #CCC;
+	padding: 4px;
+}
+/* hui-img.round */
+.hui img.round,
+img.hui-img.round{
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+/*
+* hui-ol hui-li
+*/
+.hui ol li,
+ol.hui-ol li,
+.hui ul li,
+ul.hui-ul li{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.hui ol.inline,
+ol.hui-ol.inline,
+.hui ul.inline,
+ul.hui-ul.inline{
+	margin: 0;
+	padding: 0;
+}
+.hui ol.inline li,
+ol.hui-ol.inline li,
+.hui ul.inline li,
+ul.hui-ul.inline li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+}
+.hui ol.none li,
+ol.hui-ol.none li,
+.hui ul.none li,
+ul.hui-ul.none li{
+	list-style-type: none;
+}
+.hui ol.disc li,
+ol.hui-ol.disc li,
+.hui ul.disc li,
+ul.hui-ul.disc li{
+	list-style-type: disc;
+}
+.hui ol.circle li,
+ol.hui-ol.circle li,
+.hui ul.circle li,
+ul.hui-ul.circle li{
+	list-style-type: circle;
+}
+.hui ol.square li,
+ol.hui-ol.square li,
+.hui ul.square li,
+ul.hui-ul.square li{
+	list-style-type: square;
+}
+.hui ol.decimal li,
+ol.hui-ol.decimal li,
+.hui ul.decimal li,
+ul.hui-ul.decimal li{
+	list-style-type: decimal;
+}
+.hui ol.decimal-leading-zero li,
+ol.hui-ol.decimal-leading-zero li,
+.hui ul.decimal-leading-zero li,
+ul.hui-ul.decimal-leading-zero li{
+	list-style-type: decimal-leading-zero;
+}
+.hui ol.lower-roman li,
+ol.hui-ol.lower-roman li,
+.hui ul.lower-roman li,
+ul.hui-ul.lower-roman li{
+	list-style-type: lower-roman;
+}
+.hui ol.upper-roman li,
+ol.hui-ol.upper-roman li,
+.hui ul.upper-roman li,
+ul.hui-ul.upper-roman li{
+	list-style-type: upper-roman;
+}
+.hui ol.lower-alpha li,
+ol.hui-ol.lower-alpha li,
+.hui ul.lower-alpha li,
+ul.hui-ul.lower-alpha li{
+	list-style-type: lower-alpha;
+}
+.hui ol.upper-alpha li,
+ol.hui-ol.upper-alpha li,
+.hui ul.upper-alpha li,
+ul.hui-ul.upper-alpha li{
+	list-style-type: upper-alpha;
+}
+.hui ol.lower-greek li,
+ol.hui-ol.lower-greek li,
+.hui ul.lower-greek li,
+ul.hui-ul.lower-greek li{
+	list-style-type: lower-greek;
+}
+.hui ol.lower-latin li,
+ol.hui-ol.lower-latin li,
+.hui ul.lower-latin li,
+ul.hui-ul.lower-latin li{
+	list-style-type: lower-latin;
+}
+.hui ol.upper-latin li,
+ol.hui-ol.upper-latin li,
+.hui ul.upper-latin li,
+ul.hui-ul.upper-latin li{
+	list-style-type: upper-latin;
+}
+/*
+* hui-dl
+*/
+.hui dl dt,
+dl.hui-dl dt{
+	font-weight: 600;
+}
+.hui dl dd,
+dl.hui-dl dd{
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+.hui dl.horizontal dt,
+dl.hui-dl.horizontal dt{
+	float: left;
+	min-width: 6em;
+	text-align: right;
+	margin-right: 1em;
+}
+/*
+* hui-table
+*/
+.hui table,
+table.hui-table{
+	margin: 1em 0;
+	border-collapse: collapse;
+}
+.hui table caption,
+table.hui-table caption{
+	padding: 0.5em 0;
+}
+.hui table td,
+table.hui-table td,
+.hui table th,
+table.hui-table th{
+	padding: 6px 10px;
+}
+.hui table td,
+table.hui-table td{
+	border-top: solid 1px #CCC;
+}
+/* hui-table.block */
+.hui table.block,
+table.hui-table.block{
+	width: 100%;
+}
+/* hui-table.bordered */
+.hui table.bordered,
+table.hui-table.bordered{
+	border: solid 2px #CCC;
+	border-width: 2px 0;
+}
+/* hui-table.bordered-all */
+.hui table.bordered-all,
+table.hui-table.bordered-all{
+	border: solid 2px #CCC;
+}
+/* hui-table.bg-striped */
+.hui table.bg-striped tr:nth-child(even),
+table.hui-table.bg-striped tr:nth-child(even){
+	background-color: #F3F3F3;
+}
+/* hui-table.bg-striped-vertical */
+.hui table.bg-striped-vertical tr td:nth-child(even),
+table.hui-table.bg-striped-vertical tr td:nth-child(even),
+.hui table.bg-striped-vertical tr th:nth-child(even),
+table.hui-table.bg-striped-vertical tr th:nth-child(even){
+	background-color: #F3F3F3;
+}
+/* hui-table.bg-hover */
+.hui table.bg-hover tr:hover,
+table.hui-table.bg-hover tr:hover{
+	background-color: #F6F6FF;
+}
+/* hui-table.cell-hover */
+.hui table.cell-hover td:hover,
+table.hui-table.cell-hover td:hover{
+	background-color: #EEF;
+}
+/* hui-table.cell-no-border */
+.hui table.cell-no-border td,
+table.hui-table.cell-no-border td{
+	border: 0;
+}
+/* hui-table.cell-bordered */
+.hui table.cell-bordered td,
+table.hui-table.cell-bordered td,
+.hui table.cell-bordered th,
+table.hui-table.cell-bordered th{
+	border-top: solid 1px #CCC;
+	border-right: solid 1px #CCC;
+}
+.hui table.cell-bordered th,
+table.hui-table.cell-bordered th{
+	border-top: 0;
+}
+.hui table.cell-bordered td:nth-last-child(1),
+table.hui-table.cell-bordered td:nth-last-child(1),
+.hui table.cell-bordered th:nth-last-child(1),
+table.hui-table.cell-bordered th:nth-last-child(1){
+	border-right: 0;
+}
+/* hui-table.th-bordered-bottom */
+.hui table.th-bordered-bottom th,
+table.hui-table.th-bordered-bottom th{
+	border: 0;
+	border-bottom: solid 1px #CCC;
+}
+/* hui-table.cell-bordered-vertical */
+.hui table.cell-bordered-vertical td,
+table.hui-table.cell-bordered-vertical td,
+.hui table.cell-bordered-vertical th,
+table.hui-table.cell-bordered-vertical th{
+	border: 0;
+	border-right: solid 1px #CCC;
+}
+.hui table.cell-bordered-vertical td:nth-last-child(1),
+table.hui-table.cell-bordered-vertical td:nth-last-child(1),
+.hui table.cell-bordered-vertical th:nth-last-child(1),
+table.hui-table.cell-bordered-vertical th:nth-last-child(1){
+	border: 0;
+}
+/* hui-table.cell-bordered-vertical.th-bordered-bottom */
+.hui table.cell-bordered-vertical.th-bordered-bottom th,
+table.hui-table.cell-bordered-vertical.th-bordered-bottom th{
+	border-bottom: solid 1px #CCC;
+}
+.hui table.cell-bordered-vertical.th-bordered-bottom th:nth-last-child(1),
+table.hui-table.cell-bordered-vertical.th-bordered-bottom th:nth-last-child(1){
+	border-bottom: solid 1px #CCC;
+}
+/* hui-table.cell-align-center */
+.hui table.cell-align-center td,
+table.hui-table.cell-align-center td{
+	text-align: center;
+}
+/* hui-table.cell-align-right */
+.hui table.cell-align-right td,
+table.hui-table.cell-align-right td{
+	text-align: right;
+}
+/*
+* hui-btn
+*/
+.hui button,
+.hui input[type="button"],
+.hui input[type="reset"],
+.hui input[type="submit"],
+button.hui-btn,
+input[type="button"].hui-btn,
+input[type="reset"].hui-btn,
+input[type="submit"].hui-btn,
+a.hui-btn{
+	display: inline-block;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #1E7BDB;
+	line-height: 36px;
+	height: 36px;
+	min-width: 80px;
+	padding: 0 15px;
+	border: 0;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: default;
+}
+/* hui-btn.small */
+.hui button.small,
+.hui input[type="button"].small,
+.hui input[type="reset"].small,
+.hui input[type="submit"].small,
+button.hui-btn.small,
+input[type="button"].hui-btn.small,
+input[type="reset"].hui-btn.small,
+input[type="submit"].hui-btn.small,
+a.hui-btn.small{
+	font-size: 14px;
+	line-height: 28px;
+	min-width: 60px;
+	padding: 0 10px;
+}
+/* hui-btn.large */
+.hui button.large,
+.hui input[type="button"].large,
+.hui input[type="reset"].large,
+.hui input[type="submit"].large,
+button.hui-btn.large,
+input[type="button"].hui-btn.large,
+input[type="reset"].hui-btn.large,
+input[type="submit"].hui-btn.large,
+a.hui-btn.large{
+	font-size: 20px;
+	line-height: 40px;
+	min-width: 100px;
+	padding: 0 20px;
+}
+/* hui-btn.block */
+.hui button.block,
+.hui input[type="button"].block,
+.hui input[type="reset"].block,
+.hui input[type="submit"].block,
+button.hui-btn.block,
+input[type="button"].hui-btn.block,
+input[type="reset"].hui-btn.block,
+input[type="submit"].hui-btn.block,
+a.hui-btn.block{
+	display: block;
+	width: 100%;
+}
+/* hui-btn.round-corner */
+.hui button.round-corner,
+.hui input[type="button"].round-corner,
+.hui input[type="reset"].round-corner,
+.hui input[type="submit"].round-corner,
+button.hui-btn.round-corner,
+input[type="button"].hui-btn.round-corner,
+input[type="reset"].hui-btn.round-corner,
+input[type="submit"].hui-btn.round-corner,
+a.hui-btn.round-corner{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+/* hui-btn.round */
+.hui button.round,
+.hui input[type="button"].round,
+.hui input[type="reset"].round,
+.hui input[type="submit"].round,
+button.hui-btn.round,
+input[type="button"].hui-btn.round,
+input[type="reset"].hui-btn.round,
+input[type="submit"].hui-btn.round,
+a.hui-btn.round{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+/* hui-btn:hover; */
+.hui button:hover,
+.hui input[type="button"]:hover,
+.hui input[type="reset"]:hover,
+.hui input[type="submit"]:hover,
+button.hui-btn:hover,
+input[type="button"].hui-btn:hover,
+input[type="reset"].hui-btn:hover,
+input[type="submit"].hui-btn:hover,
+a.hui-btn:hover{
+	background-color: #6A9DFF;
+}
+/* hui-btn:active; */
+.hui button:active,
+.hui input[type="button"]:active,
+.hui input[type="reset"]:active,
+.hui input[type="submit"]:active,
+button.hui-btn:active,
+input[type="button"].hui-btn:active,
+input[type="reset"].hui-btn:active,
+input[type="submit"].hui-btn:active,
+a.hui-btn:active{
+	background-color: #1A69BA;
+}
+/* hui-btn:disabled; */
+.hui button:disabled,
+.hui input[type="button"]:disabled,
+.hui input[type="reset"]:disabled,
+.hui input[type="submit"]:disabled,
+button.hui-btn:disabled,
+input[type="button"].hui-btn:disabled,
+input[type="reset"].hui-btn:disabled,
+input[type="submit"].hui-btn:disabled,
+a.hui-btn:disabled{
+	background-color: #CCC;
+}
+/*
+* hui-checkbox
+*/
+.hui input[type="checkbox"],
+input[type="checkbox"].hui-checkbox{
+	display: none;
+}
+.hui input[type="checkbox"] + span,
+input[type="checkbox"].hui-checkbox + span{
+	position: relative;
+	padding-left: 24px;
+}
+/* hui-checkbox default */
+.hui input[type="checkbox"] + span:before,
+input[type="checkbox"].hui-checkbox + span:before{
+	display: inline-block;
+	content: "";
+	width: 16px;
+	height: 16px;
+	border: solid 2px #1E7BDB;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -10px;
+}
+/* hui-checkbox default:active */
+.hui input[type="checkbox"] + span:active:before,
+input[type="checkbox"].hui-checkbox + span:active:before,
+.hui input[type="checkbox"] + span:active:after,
+input[type="checkbox"].hui-checkbox + span:active:after{
+	opacity: 0.5;
+}
+/* hui-checkbox default:checked */
+.hui input[type="checkbox"]:checked + span:after,
+input[type="checkbox"].hui-checkbox:checked + span:after{
+	display: inline-block;
+	content: "";
+	width: 8px;
+	height: 4px;
+	border-left: solid 3px #1E7BDB;
+	border-bottom: solid 3px #1E7BDB;
+	position: absolute;
+	left: 4px;
+	top: 50%;
+	margin-top: -5px;
+	-webkit-transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+/* hui-checkbox default:disabled */
+.hui input[type="checkbox"]:disabled + span:before,
+input[type="checkbox"].hui-checkbox:disabled + span:before{
+	border-color: #CCC;
+}
+.hui input[type="checkbox"]:disabled + span:active:before,
+input[type="checkbox"].hui-checkbox:disabled + span:active:before,
+.hui input[type="checkbox"]:disabled + span:active:after,
+input[type="checkbox"].hui-checkbox:disabled + span:active:after{
+	opacity: 1;
+}
+/* hui-checkbox default:checked:disabled */
+.hui input[type="checkbox"]:disabled:checked + span:after,
+input[type="checkbox"].hui-checkbox:disabled:checked + span:after{
+	border-color: #CCC;
+}
+/* hui-checkbox.reverse */
+.hui input[type="checkbox"].reverse + span:before,
+input[type="checkbox"].hui-checkbox.reverse + span:before{
+	background-color: #1E7BDB;
+}
+/* hui-checkbox.reverse:checked */
+.hui input[type="checkbox"].reverse:checked + span:after,
+input[type="checkbox"].hui-checkbox.reverse:checked + span:after{
+	border-color: #FFF;
+}
+/* hui-checkbox.reverse:disabled */
+.hui input[type="checkbox"].reverse:disabled + span:before,
+input[type="checkbox"].hui-checkbox.reverse:disabled + span:before{
+	background-color: #CCC;
+}
+/* hui-checkbox.rect */
+.hui input[type="checkbox"].rect:checked + span:before,
+input[type="checkbox"].hui-checkbox.rect:checked + span:before{
+	left: 2px;
+	margin-top: -8px;
+}
+/* hui-checkbox.rect:checked */
+.hui input[type="checkbox"].rect:checked + span:before,
+input[type="checkbox"].hui-checkbox.rect:checked + span:before{
+	width: 8px;
+	height: 8px;
+	background-color: #1E7BDB;
+	border: solid 4px #FFF;
+	outline: solid 2px #1E7BDB;
+}
+.hui input[type="checkbox"].rect:checked + span:after,
+input[type="checkbox"].hui-checkbox.rect:checked + span:after{
+	display: none;
+}
+/* hui-checkbox.rect:checked:disabled */
+.hui input[type="checkbox"].rect:disabled:checked + span:before,
+input[type="checkbox"].hui-checkbox.rect:disabled:checked + span:before{
+	background-color: #CCC;
+	outline-color: #CCC;
+}
+/* hui-checkbox.rect.reverse:checked */
+.hui input[type="checkbox"].rect.reverse:checked + span:before,
+input[type="checkbox"].hui-checkbox.rect.reverse:checked + span:before{
+	background-color: #FFF;
+	border-color: #1E7BDB;
+}
+.hui input[type="checkbox"].rect:checked + span:after,
+input[type="checkbox"].hui-checkbox.rect:checked + span:after{
+	display: none;
+}
+/* hui-checkbox.rect.reverse:checked:disabled */
+.hui input[type="checkbox"].rect.reverse:checked:disabled + span:before,
+input[type="checkbox"].hui-checkbox.rect.reverse:checked:disabled + span:before{
+	border-color: #CCC;
+}
+/* hui-checkbox.circle .rect */
+.hui input[type="checkbox"].circle + span:before,
+input[type="checkbox"].hui-checkbox.circle + span:before,
+.hui input[type="checkbox"].dot + span:before,
+input[type="checkbox"].hui-checkbox.dot + span:before{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+/* hui-checkbox.dot */
+.hui input[type="checkbox"].dot + span:after,
+input[type="checkbox"].hui-checkbox.dot + span:after{
+	width: 8px;
+	height: 8px;
+	border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #1E7BDB;
+	left: 6px;
+	margin-top: -4px;
+}
+/* hui-checkbox.dot:checked:disabled */
+.hui input[type="checkbox"].dot:checked:disabled + span:after,
+input[type="checkbox"].hui-checkbox.dot:checked:disabled + span:after{
+	background-color: #CCC;
+}
+/* hui-checkbox.dot.reverse */
+.hui input[type="checkbox"].dot.reverse + span:after,
+input[type="checkbox"].hui-checkbox.dot.reverse + span:after{
+	background-color: #FFF;
+}
+/* hui-checkbox.dot.reverse:checked:disabled */
+.hui input[type="checkbox"].dot.reverse:checked:disabled + span:after,
+input[type="checkbox"].hui-checkbox.dot.reverse:checked:disabled + span:after{
+	background-color: #FFF;
+}
+/* hui-checkbox.toggle */
+.hui input[type="checkbox"].toggle + span,
+input[type="checkbox"].hui-checkbox.toggle + span{
+	padding-left: 64px;
+}
+.hui input[type="checkbox"].toggle + span:before,
+input[type="checkbox"].hui-checkbox.toggle + span:before{
+	width: 54px;
+	height: 18px;
+	margin-top: -12px;
+	border-width: 3px;
+}
+.hui input[type="checkbox"].toggle + span:after,
+input[type="checkbox"].hui-checkbox.toggle + span:after{
+	display: inline-block;
+	content: "off";
+	width: 34px;
+	height: 20px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	border: 0;
+	text-align: center;
+	line-height: 20px;
+	color: #FFF;
+	background-color: #1E7BDB;
+	position: absolute;
+	left: 23px;
+	top: 50%;
+	margin-top: -10px;
+}
+.hui input[type="checkbox"].toggle:checked + span:after,
+input[type="checkbox"].hui-checkbox.toggle:checked + span:after{
+	content: "on";
+	left: 3px;
+}
+/* hui-checkbox.toggle:disabled */
+.hui input[type="checkbox"].toggle:disabled + span:after,
+input[type="checkbox"].hui-checkbox.toggle:disabled + span:after{
+	background-color: #CCC;
+}
+/* hui-checkbox.toggle.circle */
+.hui input[type="checkbox"].toggle.circle + span:before,
+input[type="checkbox"].hui-checkbox.toggle.circle + span:before{
+	content: "off";
+	width: 44px;
+	padding: 0 5px;
+	color: #FFF;
+	text-align: right;
+	background-color: #1E7BDB;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+}
+.hui input[type="checkbox"].toggle.circle + span:after,
+input[type="checkbox"].hui-checkbox.toggle.circle + span:after{
+	content: "";
+	width: 20px;
+	background-color: #FFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	left: 3px;
+}
+/* hui-checkbox.toggle.circle:checked */
+.hui input[type="checkbox"].toggle.circle:checked + span:before,
+input[type="checkbox"].hui-checkbox.toggle.circle + span:before{
+	content: "on";
+	text-align: left;
+}
+.hui input[type="checkbox"].toggle.circle:checked + span:after,
+input[type="checkbox"].hui-checkbox.toggle.circle + span:after{
+	content: "";
+	left: 37px;
+}
+/* hui-checkbox.toggle.circle:disabled */
+.hui input[type="checkbox"].toggle.circle:disabled + span:before,
+input[type="checkbox"].hui-checkbox.toggle.circle:disabled + span:before{
+	background-color: #CCC;
+}
+/*
+* hui-radio
+*/
+.hui input[type="radio"],
+input[type="radio"].hui-radio{
+	display: none;
+}
+.hui input[type="radio"] + span,
+input[type="radio"].hui-radio + span{
+	position: relative;
+	padding-left: 24px;
+}
+/* hui-radio default */
+.hui input[type="radio"] + span:before,
+input[type="radio"].hui-radio + span:before{
+	display: inline-block;
+	content: "";
+	width: 16px;
+	height: 16px;
+	border: solid 2px #1E7BDB;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -10px;
+}
+/* hui-radio default:active */
+.hui input[type="radio"] + span:active:before,
+input[type="radio"].hui-radio + span:active:before,
+.hui input[type="radio"] + span:active:after,
+input[type="radio"].hui-radio + span:active:after{
+	opacity: 0.5;
+}
+/* hui-radio default:checked */
+.hui input[type="radio"]:checked + span:after,
+input[type="radio"].hui-radio:checked + span:after{
+	display: inline-block;
+	content: "";
+	width: 8px;
+	height: 8px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #1E7BDB;
+	position: absolute;
+	left: 6px;
+	top: 50%;
+	margin-top: -4px;
+}
+/* hui-radio default:disabled */
+.hui input[type="radio"]:disabled + span:before,
+input[type="radio"].hui-radio:disabled + span:before{
+	border-color: #CCC;
+}
+.hui input[type="radio"]:disabled + span:after,
+input[type="radio"].hui-radio:disabled + span:after{
+	display: none;
+}
+.hui input[type="radio"]:disabled + span:active:before,
+input[type="radio"].hui-radio:disabled + span:active:before{
+	opacity: 1;
+}
+/* hui-radio.reverse */
+.hui input[type="radio"].reverse + span:before,
+input[type="radio"].hui-radio.reverse + span:before{
+	background-color: #1E7BDB;
+}
+/* hui-radio.reverse:checked */
+.hui input[type="radio"].reverse:checked + span:after,
+input[type="radio"].hui-radio.reverse:checked + span:after{
+	background-color: #FFF;
+}
+/* hui-radio.reverse:disabled */
+.hui input[type="radio"].reverse:disabled + span:before,
+input[type="radio"].hui-radio.reverse:disabled + span:before{
+	background-color: #CCC;
+}
+/* hui-radio.check */
+.hui input[type="radio"].check:checked + span:after,
+input[type="radio"].hui-radio.check:checked + span:after,
+.hui input[type="radio"].rect-border:checked + span:after,
+input[type="radio"].hui-radio.rect-border:checked + span:after{
+	width: 8px;
+	height: 4px;
+	border-left: solid 3px #1E7BDB;
+	border-bottom: solid 3px #1E7BDB;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: transparent;
+	left: 4px;
+	margin-top: -5px;
+	-webkit-transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+/* hui-radio.check.reverse */
+.hui input[type="radio"].check.reverse:checked + span:after,
+input[type="radio"].hui-radio.check.reverse:checked + span:after,
+.hui input[type="radio"].rect-border.reverse:checked + span:after,
+input[type="radio"].hui-radio.rect-border.reverse:checked + span:after{
+	border-color: #FFF;
+}
+/* hui-radio.rect-border .rect */
+.hui input[type="radio"].rect + span:before,
+input[type="radio"].hui-radio.rect + span:before,
+.hui input[type="radio"].rect-border + span:before,
+input[type="radio"].hui-radio.rect-border + span:before{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+/* hui-radio.rect:checked */
+.hui input[type="radio"].rect:checked + span:after,
+input[type="radio"].hui-radio.rect:checked + span:after{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+/*
+* hui-input
+*/
+.hui input[type="search"],
+.hui select,
+select.hui-select{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.hui-input,
+.hui input[type="email"],
+.hui input[type="number"],
+.hui input[type="password"],
+.hui input[type="search"],
+.hui input[type="tel"],
+.hui input[type="text"],
+.hui input[type="url"],
+.hui input[type="date"],
+.hui input[type="datetime"],
+.hui input[type="datetime-local"],
+.hui input[type="month"],
+.hui input[type="week"],
+.hui input[type="time"],
+.hui input[type="file"],
+.hui textarea,
+textarea.hui-textarea,
+.hui select,
+select.hui-select{
+	width: 186px;
+	height: 20px;
+	padding: 5px;
+	border: solid 2px #DDD;
+	outline: 0;
+	color: #999;
+}
+.hui-input.block,
+.hui input[type="email"].block,
+.hui input[type="number"].block,
+.hui input[type="password"].block,
+.hui input[type="search"].block,
+.hui input[type="tel"].block,
+.hui input[type="text"].block,
+.hui input[type="url"].block,
+.hui input[type="date"].block,
+.hui input[type="datetime"].block,
+.hui input[type="datetime-local"].block,
+.hui input[type="month"].block,
+.hui input[type="week"].block,
+.hui input[type="time"].block,
+.hui input[type="file"].block,
+.hui textarea.block,
+textarea.hui-textarea.block,
+.hui select.block,
+select.hui-select.block{
+	display: block;
+	width: calc(100% - 14px);
+}
+.hui-input.success,
+.hui input[type="email"].success,
+.hui input[type="number"].success,
+.hui input[type="password"].success,
+.hui input[type="search"].success,
+.hui input[type="tel"].success,
+.hui input[type="text"].success,
+.hui input[type="url"].success,
+.hui input[type="date"].success,
+.hui input[type="datetime"].success,
+.hui input[type="datetime-local"].success,
+.hui input[type="month"].success,
+.hui input[type="week"].success,
+.hui input[type="time"].success,
+.hui input[type="file"].success,
+.hui textarea.success,
+textarea.hui-textarea.success,
+.hui select.success,
+select.hui-select.success{
+	border-color: #20CF8F;
+}
+.hui-input.error,
+.hui input[type="email"].error,
+.hui input[type="number"].error,
+.hui input[type="password"].error,
+.hui input[type="search"].error,
+.hui input[type="tel"].error,
+.hui input[type="text"].error,
+.hui input[type="url"].error,
+.hui input[type="date"].error,
+.hui input[type="datetime"].error,
+.hui input[type="datetime-local"].error,
+.hui input[type="month"].error,
+.hui input[type="week"].error,
+.hui input[type="time"].error,
+.hui input[type="file"].error,
+.hui textarea.error,
+textarea.hui-textarea.error,
+.hui select.error,
+select.hui-select.error{
+	border-color: #C00;
+}
+.hui-input:focus,
+.hui input[type="email"]:focus,
+.hui input[type="number"]:focus,
+.hui input[type="password"]:focus,
+.hui input[type="search"]:focus,
+.hui input[type="tel"]:focus,
+.hui input[type="text"]:focus,
+.hui input[type="url"]:focus,
+.hui input[type="date"]:focus,
+.hui input[type="datetime"]:focus,
+.hui input[type="datetime-local"]:focus,
+.hui input[type="month"]:focus,
+.hui input[type="week"]:focus,
+.hui input[type="time"]:focus,
+.hui input[type="file"]:focus,
+.hui textarea:focus,
+textarea.hui-textarea:focus,
+.hui select:focus,
+select.hui-select:focus{
+	border-color: #53A6FC;
+}
+.hui-input:disabled,
+.hui input[type="email"]:disabled,
+.hui input[type="number"]:disabled,
+.hui input[type="password"]:disabled,
+.hui input[type="search"]:disabled,
+.hui input[type="tel"]:disabled,
+.hui input[type="text"]:disabled,
+.hui input[type="url"]:disabled,
+.hui input[type="date"]:disabled,
+.hui input[type="datetime"]:disabled,
+.hui input[type="datetime-local"]:disabled,
+.hui input[type="month"]:disabled,
+.hui input[type="week"]:disabled,
+.hui input[type="time"]:disabled,
+.hui input[type="file"]:disabled,
+.hui textarea:disabled,
+textarea.hui-textarea:disabled,
+.hui select:disabled,
+select.hui-select:disabled{
+	background-color: #EEE;
+}
+/*
+* hui-fieldset
+*/
+.hui fieldset,
+fieldset .hui-fieldset{
+	border: solid 2px #DDD;
+}
+.hui textarea,
+textarea.hui-textarea{
+	width: auto;
+	min-width: 186px;
+	height: auto;
+	padding: 5px;
+}
+.hui select,
+select.hui-select{
+}
+.hui select[multiple],
+select.hui-select[multiple]{
+	height: auto;
+}
+.hui progress,
+progress.hui-progress,
+.hui meter,
+meter.hui-meter{
+	width: 200px;
+	height: 14px;
+}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>租房--百姓网</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/hui.base.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=4c2d3736878487f19a113ef78ea28758"></script>
+	<script src="./js/main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<aside>
+			<h3>筛选</h3>
+			<table>
+				<tr>
+					<th>地点：</th>
+					<td>
+						<ul class="nav nav-tabs">
+						  <li class="active"><a href="#region" data-toggle="tab">区域</a></li>
+						  <li><a href="#site" data-toggle="tab">位置</a></li>
+						</ul>
+						<div class="tab-content" id="tab-content">
+						  <div class="tab-pane active" id="region">
+							<div class="map">
+								<img src="./img/shanghai.png" title="测试用图像" width="240" height="300">
+							</div>
+							<div class="control">
+								<ul class="breadcrumb">
+								  <li><a href="#">中国</a> <span class="divider">/</span></li>
+								  <li><a href="#">上海</a>
+								</ul>
+								<ul class="hui-ul inline">
+									<li><a href="#">黄浦</a></li>
+									<li><a href="#">静安</a></li>
+									<li><a href="#">卢湾</a></li>
+									<li><a href="#">徐汇</a></li>
+									<li><a href="#">长宁</a></li>
+									<li><a href="#">闸北</a></li>
+									<li><a href="#">普陀</a></li>
+									<li><a href="#">...</a></li>
+								</ul>
+							</div>
+						  </div>
+						  <div class="tab-pane" id="site">
+							<div class="map" id="bmap"></div>
+							<div class="control">
+								<div>
+									<button class="btn" id="current-local">当前位置</button>
+									<span> 或在地图中选择</span>
+								</div><br />
+								<div>
+									<span>距离：</span>
+									<input type="range">
+									<span> 20 km 以内</span>
+								</div>
+							</div>
+						  </div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>出租形式：</th>
+					<td>
+						<div class="btn-group" data-toggle="buttons-radio">
+						  <button type="button" class="btn btn-primary active">所有</button>
+						  <button type="button" class="btn">单间</button>
+						  <button type="button" class="btn">整租</button>
+						  <button type="button" class="btn">床位</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>房型：</th>
+					<td>
+						<div class="btn-group" data-toggle="buttons-radio">
+						  <button type="button" class="btn btn-primary active">所有</button>
+						  <button type="button" class="btn">一室</button>
+						  <button type="button" class="btn">两室</button>
+						  <button type="button" class="btn">三室</button>
+						  <button type="button" class="btn">四室及以上</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>租金：</th>
+					<td>
+						<input type="range">
+						<span> 1000~2000 元</span>
+					</td>
+				</tr>
+				<tr>
+					<th>厨卫：</th>
+					<td>
+						<div class="btn-group" data-toggle="buttons-radio">
+						  <button type="button" class="btn btn-primary active">所有</button>
+						  <button type="button" class="btn">独立</button>
+						  <button type="button" class="btn">共享</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>装修：</th>
+					<td>
+						<div class="btn-group" data-toggle="buttons-radio">
+						  <button type="button" class="btn btn-primary active">所有</button>
+						  <button type="button" class="btn">毛坯</button>
+						  <button type="button" class="btn">简装</button>
+						  <button type="button" class="btn">精装</button>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</aside>
+		<div class="main">
+			<div id="filter">
+				<h3>我的筛选条件：</h3>
+				<ul class="hui-ul inline">
+					<li>上海</li>
+					<li>距 我的位置 20km 以内</li>
+					<li>整租</li>
+					<li>一室</li>
+					<li>0~2000元</li>
+				</ul>
+			</div>
+			<div id="sort">
+				<h3>结果排序：</h3>
+				<button class="btn">价格</button>
+				<button class="btn">发布时间</button>
+				<button class="btn">距离</button>
+			</div>
+		</div>
+		<div class="float-clear"></div>
+	</div>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

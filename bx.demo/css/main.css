@@ -1,0 +1,93 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	zoom: 1;
+}
+
+.clear{
+	clear: both;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* IE 6/7 fix */
+ul.inline li{
+	float: left;
+	margin-right: 3px !important;
+}
+ul.inline li.hui-clear{
+	float: none;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.container .col{
+	width: 184px;
+	margin-left: 10px;
+	margin-left: 20px !important; /* IE 6 fix */
+	float: left;
+}
+.container .col:first-child,
+.container .col.first{
+	margin-left: 0 !important; /* IE 6 fix */
+}
+.container h2{
+	font-size: 16px;
+	border-bottom: 0;
+	border-left: solid 3px #C40DF1;
+	line-height: 30px;
+	padding-left: 5px;
+	color: #333;
+	background-color: #EEE;
+}
+.container h2 a,
+.container h3 a,
+.container ul li a{
+	color: #333;
+	text-decoration: none;
+}
+.container h3{
+	font-size: 14px;
+}
+.container h3 a{
+	color: #666;
+}
+.container ul li{
+	font-size: 13px;
+}
+.container ul li a{
+	color: #999;
+}
+/* device width < 640 */
+@media (max-width: 640px) {
+	body{
+		zoom: 1;
+	}
+	.container{
+		width: auto;
+	}
+	.container .col{
+		width: 100%;
+		margin: 0 !important;
+		float: none;
+	}
+}
+/* 640 < device width < 1000px */
+@media (min-width: 640px) and (max-width: 1000px) {
+	body{
+		zoom: 1;
+	}
+	.container{
+		width: auto;
+	}
+	.container .col{
+		width: 50%;
+		margin: 0 !important;
+		padding-right: 10px !important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		float: left;
+	}
+}
