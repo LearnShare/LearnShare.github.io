@@ -24,8 +24,8 @@ ul.inline li.hui-clear{
 }
 .container .col{
 	width: 184px;
-	margin-left: 10px;
-	margin-left: 20px !important; /* IE 6 fix */
+	_width: 183px;
+	margin-left: 20px;
 	float: left;
 }
 .container .col:first-child,
