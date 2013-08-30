@@ -36,23 +36,25 @@ function listenerNavClick(e){
 }
 
 function listenerScroll(){
-	var hashList=[
-		"#home",
-		"#skill",
-		"#about",
-		"#works",
-		"#contact"
-	];
-	var py=window.pageYOffset;
-	var currentPageHash=hashList[Math.floor((py+200)/700)];
-	//console.log("current page:"+currentPageHash);
-	if(currentPageHash){ // 末尾页可能无法获取到 hash
-		setCurrentNavItem(currentPageHash);
-		var sectionSkill=document.querySelector("section#skill");
-		if(currentPageHash=="#skill"){
-			addClass(sectionSkill,"open");
-		}else{
-			removeClass(sectionSkill,"open");
+	if(coverOpend()){
+		var hashList=[
+			"#home",
+			"#skill",
+			"#about",
+			"#works",
+			"#contact"
+		];
+		var py=window.pageYOffset;
+		var currentPageHash=hashList[Math.floor((py+200)/700)];
+		//console.log("current page:"+currentPageHash);
+		if(currentPageHash){ // 末尾页可能无法获取到 hash
+			setCurrentNavItem(currentPageHash);
+			var sectionSkill=document.querySelector("section#skill");
+			if(currentPageHash=="#skill"){
+				addClass(sectionSkill,"open");
+			}else{
+				removeClass(sectionSkill,"open");
+			}
 		}
 	}
 }
