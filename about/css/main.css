@@ -307,8 +307,8 @@ table tr td:first-child{
 }
 #skill td[colspan="4"] div span{
 	display: inline-block;
-	height: 20px;
-	margin-top: 2px;
+	height: 16px;
+	margin-top: 5px;
 	background-color: #99F;
 }
 #skill.open td[colspan="4"] div{
