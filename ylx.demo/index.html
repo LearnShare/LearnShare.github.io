@@ -1,0 +1,396 @@
+<!-- 
+# demo: yuelvxing.com/index.html
+# author: LearnShare
+# update: 2013-9-8 17:07
+ -->
+
+<!doctype html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>悦旅行</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/jquery.gallery.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<header>
+		<div class="left">
+			<a href="http://www.yuelvxing.com/" id="logo">&nbsp;</a>
+			<a href="#">城市微旅行</a>
+			<a href="#">城市画报</a>
+		</div>
+		<div class="right">
+			<a href="#" class="icon" title="使用新浪微博登录">
+				<img src="./img/weibo_logo.png" alt="" width="20" height="16">
+			</a>
+			<a href="#" class="icon" title="使用QQ登录">
+				<img src="./img/qq_logo.png" alt="" width="20" height="20">
+			</a>
+			<a href="#" class="btn">登录</a>
+			<a href="#" class="btn">注册</a>
+		</div>
+		<div class="clear"></div>
+	</header>
+	<article>
+		<section id="main">
+			<div class="container">
+				<div class="slider">
+					<ul class="gallery clear">
+						<li><img src="./img/main01.jpg" alt="" height="400"></li>
+						<li><img src="./img/main02.jpg" alt="" height="400"></li>
+						<li><img src="./img/main03.jpg" alt="" height="400"></li>
+					</ul>
+					<a href="#" class="control prev">&lt;</a>
+					<a href="#" class="control next">&gt;</a>
+					<ul class="pagination clear inline">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div id="recommendations">
+					<p id="about">悦旅行专注于挖掘每座城市的原汁原味以及解读城下人民的生活方式，提供给读者简易但有用的城市轻导读。我们的口号是：享生活，乐于行！</p>
+					<ul class="clear">
+						<li>
+							<span>活动</span><a href="#">	「中秋节，明信片送家人」</a>
+						</li>
+						<li>
+							<span>卡片</span><a href="#">	「给我讲个故事吧」</a>
+						</li>
+						<li>
+							<span>电台</span><a href="#">	「意大利中世纪小镇-锡耶纳」</a>
+						</li>
+					</ul>
+					<ul class="clear">
+						<li>
+							<span>应用</span>
+							<a href="#">悦旅行FM</a>
+							<a href="#">我们爱明信片</a>
+							<a href="#">欲望清单</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</section>
+		<p id="tips">
+			<span class="icon">!</span>
+			2013年4悦15日，悦旅行经历了历史上最大的一次改版，今后，我们的品质不变，详细悦读《<a href="#">致读者的一封信</a>》
+		</p>
+		<section id="travel" class="slider">
+			<div class="head">
+				<h2>城市微旅行</h2>
+				<div class="control">
+					<a href="#" class="prev">&lt;</a>
+					<ul class="pagination inline clear">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<a href="#" class="next">&gt;</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<ul class="col4 gallery clear">
+				<li class="current">
+					<a href="#">
+						<div class="img">
+							<img src="./img/t01.jpg" alt="">
+							<span class="count">456</span>
+							<span class="title-single">专题</span>
+						</div>
+						<div class="title">吃货日记</div>
+						<div class="author">卡洛主编，涉及456个城市</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/t02.jpg" alt="">
+							<span class="count">456</span>
+						</div>
+						<div class="title">自驾城外游</div>
+						<div class="author">卡洛主编，涉及456个城市</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/t03.jpg" alt="">
+							<span class="count">456</span>
+						</div>
+						<div class="title">旅游装X指南</div>
+						<div class="author">卡洛主编，涉及456个城市</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/t04.jpg" alt="">
+							<span class="count">456</span>
+						</div>
+						<div class="title">在城内闲</div>
+						<div class="author">卡洛主编，涉及456个城市</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+				<li>
+					<a href="#">
+						<div class="img">
+							<img src="./img/t02.jpg" alt="">
+							<span class="count">456</span>
+							<span class="title-single">专题</span>
+						</div>
+						<div class="title">吃货日记2</div>
+						<div class="author">卡洛主编，涉及456个城市</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+				<li>
+					<a href="#">
+						<div class="img">
+							<img src="./img/t03.jpg" alt="">
+							<span class="count">456</span>
+							<span class="title-single">专题</span>
+						</div>
+						<div class="title">吃货日记3</div>
+						<div class="author">卡洛主编，涉及456个城市</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+			</ul>
+			<a href="#" class="btn more">更多主题(56)&gt;&gt;</a>
+		</section>
+		<section id="experience" class="slider">
+			<div class="head">
+				<h2>最新体验</h2>
+				<div class="control">
+					<a href="#" class="prev">&lt;</a>
+					<ul class="pagination inline clear">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<a href="#" class="next">&gt;</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<ul class="col3 gallery clear">
+				<li class="current">
+					<a href="#">
+						<div class="img">
+							<img src="./img/e01.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">心灵和禅的清凉假期，无锡灵山</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e02.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">七夕送给男朋友的最佳礼物候选</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e03.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">去桐庐山住一晚</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e01.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">心灵和禅的清凉假期，无锡灵山</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e02.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">七夕送给男朋友的最佳礼物候选</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e03.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">去桐庐山住一晚</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+				<li>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e02.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">去桐庐山住一晚2</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+				<li>
+					<a href="#">
+						<div class="img">
+							<img src="./img/e03.jpg" alt="">
+							<span class="author">
+								<img src="./img/author.png" alt="">
+							</span>
+						</div>
+						<div class="author">玩玩小姐，in「悦旅行专题」</div>
+						<div class="title">去桐庐山住一晚3</div>
+						<div class="view">杭州，4586次浏览</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+			</ul>
+			<a href="#" class="btn more">更多微旅行(5268)&gt;&gt;</a>
+		</section>
+		<section id="picture" class="slider">
+			<div class="head">
+				<h2>城市画报</h2>
+				<a href="#" class="btn">随机来一发</a>
+				<div class="control">
+					<a href="#" class="prev">&lt;</a>
+					<ul class="pagination inline clear">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<a href="#" class="next">&gt;</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<ul class="col4 gallery clear">
+				<li class="current">
+					<a href="#">
+						<img src="./img/p01.jpg" alt="">
+						<div class="time">
+							<div>068</div>
+							<span>13.08.28</span>
+						</div>
+						<div class="title">
+							<div>武夷山</div>
+							<span>清凉小假期</span>
+						</div>
+					</a>
+					<a href="#" class="blue">
+						<img src="./img/p02.jpg" alt="">
+						<div class="time">
+							<div>068</div>
+							<span>13.08.28</span>
+						</div>
+						<div class="title">
+							<div>武夷山</div>
+							<span>清凉小假期</span>
+						</div>
+					</a>
+					<a href="#" class="pink">
+						<img src="./img/p03.jpg" alt="">
+						<div class="time">
+							<div>068</div>
+							<span>13.08.28</span>
+						</div>
+						<div class="title">
+							<div>东京</div>
+							<span>找寻花的足迹</span>
+						</div>
+					</a>
+					<a href="#" class="blue">
+						<img src="./img/p04.jpg" alt="">
+						<div class="time">
+							<div>068</div>
+							<span>13.08.28</span>
+						</div>
+						<div class="title">
+							<div>东京</div>
+							<span>找寻花的足迹</span>
+						</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+				<li>
+					<a href="#" class="pink">
+						<img src="./img/p02.jpg" alt="">
+						<div class="time">
+							<div>068</div>
+							<span>13.08.28</span>
+						</div>
+						<div class="title">
+							<div>武夷山2</div>
+							<span>清凉小假期</span>
+						</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+				<li>
+					<a href="#" class="blue">
+						<img src="./img/p03.jpg" alt="">
+						<div class="time">
+							<div>068</div>
+							<span>13.08.28</span>
+						</div>
+						<div class="title">
+							<div>武夷山3</div>
+							<span>清凉小假期</span>
+						</div>
+					</a>
+					<div class="clear"></div>
+				</li>
+			</ul>
+		</section>
+	</article>
+	<footer>
+		<ul class="clear inline">
+			<li><a href="#">关于我们</a>·</li>
+			<li><a href="#">悦旅行APP</a>·</li>
+			<li><a href="#">联系我们</a>·</li>
+			<li><a href="#">加入我们</a>·</li>
+			<li><a href="#">友情链接</a>·</li>
+			<li><a href="#">意见反馈</a>·</li>
+			<li><a href="#">免责声明</a>·</li>
+			<li><a href="#">帮助中心</a></li>
+		</ul>
+		<div class="copy">&copy;2012-2013 悦旅行</div>
+		<ul class="follow clear inline">
+			<li>
+				<wb:follow-button uid="2690533663" type="red_2" width="120" height="24" ></wb:follow-button>
+			</li>
+			<li>
+				<iframe src="http://open.qzone.qq.com/like?url=http%3A%2F%2Fuser.qzone.qq.com%2F2207403214&amp;type=button_num&amp;width=400&amp;height=30&amp;style=2" allowtransparency="true" scrolling="no" border="0" frameborder="0" style="width:100px;height:24px;border:none;overflow:hidden;"></iframe>
+			</li>
+			<li>
+				<iframe src="http://follow.v.t.qq.com/index.php?c=follow&amp;a=quick&amp;name=yuelvxing&amp;style=5&amp;t=2207403214&amp;f=1" frameborder="0" scrolling="auto" width="120" height="24" marginwidth="0" marginheight="0" allowtransparency="true"></iframe>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
