@@ -524,3 +524,10 @@ footer .follow{
 		margin-left: 0;
 	}
 }
+/* IE fix */
+header .right .icon img,
+ul.col4 li a .img img,
+ul.col4 li a img,
+ul.col3 li a .img img{
+	border: 0;
+}
