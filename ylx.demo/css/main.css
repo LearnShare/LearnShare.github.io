@@ -6,7 +6,7 @@
 
 body{
 	margin: 0;
-	font-family: "Lucida Bright", 宋体, sans-serif;
+	font-family: "Conv_lucida_bright", 宋体, sans-serif;
 	font-size: 12px;
 }
 .clear{
@@ -435,7 +435,6 @@ ul.col3 li a > .title{
 }
 #picture ul.col4 li a .time span{
 	display: block;
-	font-size: 13px;
 	line-height: 16px;
 }
 #picture ul.col4 li a .title{
