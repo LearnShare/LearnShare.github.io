@@ -1,0 +1,3346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Floor1_polygon">
+  <name>Floor1_polygon</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Floor1_polygon</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>104</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>104</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>104</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>101.263328</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>640.811322</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544704,31.303626 120.544925,31.303665 120.544875,31.303856 120.544654,31.303817 120.544704,31.303626</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>135</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>135</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>135</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>95.589951</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>324.43395</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545225,31.304257 120.545248,31.304246 120.545261,31.304269 120.545287,31.304257 120.545314,31.304303 120.545099,31.304376 120.545092,31.304370 120.545065,31.304349 120.545081,31.304287 120.545115,31.304293 120.545128,31.304245 120.545060,31.304206 120.545134,31.304219 120.545211,31.304232 120.545211,31.304233 120.545225,31.304257</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>102</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>102</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>102</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>101.291802</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>469.18075</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544577,31.304114 120.544611,31.303983 120.544745,31.304007 120.544800,31.304016 120.544816,31.303956 120.544848,31.303962 120.544798,31.304153 120.544577,31.304114</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>141</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>141</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>141</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>158.874434</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>1425.975644</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545312,31.303955 120.545502,31.303989 120.545522,31.304007 120.545583,31.303966 120.545700,31.304082 120.545720,31.304101 120.545340,31.304293 120.545213,31.304072 120.545291,31.304035 120.545312,31.303955</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>125</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>125</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>125</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>32.78313</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>66.03959</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544985,31.304120 120.545048,31.304131 120.545030,31.304200 120.544967,31.304189 120.544985,31.304120</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>136</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>136</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>136</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>52.361067</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>170.865199</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545086,31.304104 120.545100,31.304052 120.545213,31.304072 120.545248,31.304133 120.545202,31.304154 120.545079,31.304132 120.545086,31.304104</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>193</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>193</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>193</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>53.890513</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>168.506873</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545202,31.304154 120.545239,31.304220 120.545211,31.304232 120.545060,31.304206 120.545078,31.304136 120.545079,31.304132 120.545202,31.304154</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>138</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>138</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>138</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>62.147628</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>218.282595</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545123,31.303964 120.545127,31.303947 120.545133,31.303923 120.545189,31.303933 120.545312,31.303955 120.545302,31.303996 120.545291,31.304035 120.545112,31.304003 120.545123,31.303964</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>137</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>137</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>137</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>49.524459</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>106.376495</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545100,31.304052 120.545112,31.304003 120.545291,31.304035 120.545213,31.304072 120.545100,31.304052</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>144</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>144</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>144</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>93.200854</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>336.03032</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545188,31.303712 120.545207,31.303640 120.545532,31.303697 120.545519,31.303747 120.545461,31.303737 120.545455,31.303759 120.545188,31.303712</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>147</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>147</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>147</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>92.61588</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>345.44997</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545251,31.303469 120.545262,31.303428 120.545420,31.303407 120.545599,31.303439 120.545586,31.303487 120.545561,31.303483 120.545551,31.303522 120.545518,31.303516 120.545251,31.303469</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>F1LT4</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT4</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT4</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>38.587457</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>83.855611</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545436,31.303832 120.545461,31.303737 120.545519,31.303747 120.545494,31.303843 120.545436,31.303832</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>143</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>143</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>143</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>80.240173</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>295.949896</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545188,31.303712 120.545455,31.303759 120.545436,31.303832 120.545169,31.303785 120.545188,31.303712</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>145</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>145</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>145</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>98.27282</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>449.248692</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545497,31.303596 120.545556,31.303606 120.545532,31.303697 120.545207,31.303640 120.545230,31.303549 120.545497,31.303596</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>146</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>146</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>146</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>82.108792</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>324.328654</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545251,31.303469 120.545518,31.303516 120.545497,31.303596 120.545230,31.303549 120.545251,31.303469</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>F1LT2</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT2</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT2</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>45.380809</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>79.359259</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544503,31.304356 120.544480,31.304329 120.544528,31.304303 120.544620,31.304253 120.544643,31.304280 120.544503,31.304356</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>F1FT3</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1FT3</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1FT3</td>
+</tr>
+<tr>
+<td>type</td>
+<td>扶梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>45.572806</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>66.838409</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544643,31.304280 120.544661,31.304302 120.544530,31.304388 120.544503,31.304356 120.544643,31.304280</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>109</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>109</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>109</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>89.350796</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>492.875363</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544685,31.302959 120.544640,31.302801 120.544860,31.302774 120.544899,31.302917 120.544784,31.302939 120.544685,31.302959</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>115</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>115</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>115</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>56.070993</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>194.821321</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544986,31.303429 120.545121,31.303452 120.545096,31.303548 120.544962,31.303524 120.544986,31.303429</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>120</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>120</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>120</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>58.563078</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>213.891719</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544870,31.303876 120.544960,31.303892 120.545005,31.303900 120.544999,31.303924 120.544978,31.304005 120.544843,31.303981 120.544870,31.303876</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>F1LT7</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT7</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT7</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>37.55041</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>78.142305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544816,31.303956 120.544800,31.304016 120.544745,31.304007 120.544770,31.303913 120.544824,31.303922 120.544816,31.303956</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>103</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>103</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>103</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>81.851564</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>339.52256</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544611,31.303983 120.544649,31.303837 120.544838,31.303871 120.544824,31.303922 120.544770,31.303913 120.544745,31.304007 120.544611,31.303983</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>101</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>101</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>101</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>102.319742</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>507.399641</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544796,31.304274 120.544661,31.304302 120.544620,31.304253 120.544528,31.304303 120.544577,31.304114 120.544798,31.304153 120.544778,31.304233 120.544796,31.304274</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>123</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>123</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>123</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>48.799159</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>141.8696</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544791,31.304181 120.544926,31.304205 120.544886,31.304279 120.544796,31.304274 120.544778,31.304233 120.544791,31.304181</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00024">
+      <name>122</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>122</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>122</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>59.734079</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>222.852674</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544819,31.304072 120.544954,31.304096 120.544926,31.304205 120.544791,31.304181 120.544819,31.304072</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00025">
+      <name>121</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>121</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>121</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>54.904144</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>185.892141</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544843,31.303981 120.544978,31.304005 120.544954,31.304096 120.544819,31.304072 120.544843,31.303981</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00026">
+      <name>106</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>106</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>106</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>79.87719</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>333.956594</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544776,31.303345 120.544964,31.303379 120.544947,31.303444 120.544891,31.303434 120.544872,31.303508 120.544740,31.303485 120.544776,31.303345</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00027">
+      <name>192</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>192</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>192</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>47.722509</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>130.935496</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544892,31.303792 120.545027,31.303816 120.545010,31.303880 120.544875,31.303856 120.544892,31.303792</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00028">
+      <name>105</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>105</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>105</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>89.981813</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>392.442744</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544911,31.303537 120.544956,31.303545 120.544925,31.303665 120.544704,31.303626 120.544735,31.303506 120.544887,31.303533 120.544880,31.303561 120.544904,31.303566 120.544911,31.303537</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00029">
+      <name>118</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>118</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>118</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>46.816674</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>124.003694</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544941,31.303604 120.545075,31.303628 120.545060,31.303689 120.544925,31.303665 120.544941,31.303604</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00030">
+      <name>F1LT10</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT10</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT10</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>32.494624</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>62.91438</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544872,31.303508 120.544891,31.303434 120.544947,31.303444 120.544928,31.303518 120.544872,31.303508</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00031">
+      <name>112</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>112</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>112</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>54.263998</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>183.766894</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544893,31.302998 120.545013,31.302976 120.545046,31.303072 120.544928,31.303100 120.544893,31.302998</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00032">
+      <name>113</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>113</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>113</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>51.793822</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>121.032535</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545046,31.303072 120.545060,31.303116 120.544891,31.303159 120.544873,31.303113 120.545046,31.303072</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00033">
+      <name>F1LT9</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT9</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT9</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>40.914853</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>89.933045</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544893,31.302998 120.544928,31.303100 120.544873,31.303113 120.544835,31.303009 120.544893,31.302998</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00034">
+      <name>F1LT8</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT8</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT8</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>23.737464</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>23.473302</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544953,31.303163 120.544946,31.303145 120.544973,31.303138 120.545026,31.303125 120.545034,31.303143 120.544953,31.303163</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00035">
+      <name>F1LT1</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT1</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT1</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>22.644245</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>18.363318</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545034,31.303143 120.545039,31.303157 120.544959,31.303178 120.544953,31.303163 120.545034,31.303143</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00036">
+      <name>110</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>110</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>110</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>58.276874</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>195.633619</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544899,31.302917 120.544860,31.302774 120.544954,31.302763 120.544991,31.302899 120.544899,31.302917</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00037">
+      <name>108</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>108</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>108</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>86.607525</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>382.399465</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544784,31.302939 120.544804,31.302993 120.544868,31.303165 120.544758,31.303193 120.544736,31.303133 120.544685,31.302959 120.544784,31.302939</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00038">
+      <name>130</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>130</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>130</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>33.489611</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>68.55967</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545104,31.303660 120.545114,31.303623 120.545176,31.303634 120.545167,31.303671 120.545158,31.303706 120.545095,31.303695 120.545104,31.303660</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00039">
+      <name>F1LT3</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1LT3</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1LT3</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>30.760004</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>55.888992</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545239,31.304220 120.545202,31.304154 120.545248,31.304133 120.545286,31.304198 120.545239,31.304220</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00040">
+      <name>107</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>107</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>107</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>72.858054</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>323.993954</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544964,31.303379 120.544776,31.303345 120.544795,31.303272 120.544976,31.303225 120.544994,31.303263 120.544964,31.303379</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00041">
+      <name>116</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>116</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>116</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>55.633401</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>191.425752</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544986,31.303429 120.545010,31.303335 120.545145,31.303359 120.545121,31.303452 120.544986,31.303429</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00042">
+      <name>119</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>119</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>119</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>48.843498</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>139.513737</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544907,31.303733 120.544925,31.303665 120.545060,31.303689 120.545042,31.303757 120.544907,31.303733</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00043">
+      <name>191</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>191</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>191</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>46.228413</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>119.502091</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544892,31.303792 120.544901,31.303758 120.544907,31.303733 120.545042,31.303757 120.545035,31.303782 120.545027,31.303816 120.544892,31.303792</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00044">
+      <name>117</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>117</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>117</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>46.440988</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>121.1288</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544941,31.303604 120.544956,31.303545 120.545091,31.303569 120.545075,31.303628 120.544941,31.303604</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00045">
+      <name>111</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>111</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>111</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>61.325562</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>171.050895</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544991,31.302899 120.545006,31.302953 120.544804,31.302993 120.544784,31.302939 120.544899,31.302917 120.544991,31.302899</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00046">
+      <name>F1FT1</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1FT1</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1FT1</td>
+</tr>
+<tr>
+<td>type</td>
+<td>扶梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>50.021254</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>127.52945</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544999,31.304064 120.545034,31.303930 120.545097,31.303941 120.545062,31.304075 120.544999,31.304064</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00047">
+      <name>126</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>126</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>126</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>23.345679</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>32.3754</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544991,31.304098 120.544999,31.304064 120.545062,31.304075 120.545053,31.304109 120.544991,31.304098</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00048">
+      <name>133</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>133</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>133</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>31.35286</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>60.937696</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545121,31.303596 120.545137,31.303532 120.545200,31.303543 120.545183,31.303607 120.545121,31.303596</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00049">
+      <name>NULL</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td></td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>type</td>
+<td>楼层</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>685.374006</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>21777.660147</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545583,31.303966 120.545701,31.304082 120.545721,31.304101 120.545341,31.304293 120.545314,31.304304 120.545099,31.304376 120.545093,31.304370 120.545066,31.304349 120.545029,31.304326 120.545001,31.304312 120.544941,31.304291 120.544907,31.304282 120.544887,31.304279 120.544797,31.304275 120.544662,31.304303 120.544531,31.304388 120.544504,31.304356 120.544481,31.304329 120.544529,31.304303 120.544578,31.304114 120.544612,31.303983 120.544650,31.303837 120.544655,31.303817 120.544705,31.303626 120.544736,31.303506 120.544741,31.303485 120.544781,31.303331 120.544796,31.303272 120.544759,31.303193 120.544737,31.303133 120.544686,31.302959 120.544641,31.302801 120.544861,31.302774 120.544955,31.302763 120.544995,31.302758 120.545174,31.302736 120.545182,31.302704 120.545187,31.302685 120.545238,31.302694 120.545359,31.302716 120.545384,31.302720 120.545447,31.302731 120.545530,31.302746 120.545615,31.302761 120.545678,31.302772 120.545747,31.302785 120.545796,31.302793 120.545777,31.302868 120.545760,31.302935 120.545740,31.303011 120.545720,31.303087 120.545695,31.303183 120.545511,31.303894 120.545583,31.303966</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00050">
+      <name>F1FT2</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>F1FT2</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>F1FT2</td>
+</tr>
+<tr>
+<td>type</td>
+<td>扶梯</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>38.945756</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>67.248009</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle011</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545429,31.303166 120.545424,31.303281 120.545384,31.303279 120.545389,31.303164 120.545429,31.303166</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00051">
+      <name>114</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>114</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>114</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>64.982449</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>226.993357</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545017,31.303312 120.545028,31.303269 120.545004,31.303218 120.545097,31.303194 120.545156,31.303319 120.545145,31.303359 120.545052,31.303342 120.545058,31.303319 120.545017,31.303312</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00052">
+      <name>197</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>197</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>197</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>327.702215</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>4012.21719</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.544994,31.302758 120.545173,31.302736 120.545186,31.302685 120.545796,31.302793 120.545631,31.303428 120.545424,31.303392 120.545461,31.303250 120.545464,31.303091 120.545381,31.302983 120.545219,31.302938 120.545051,31.302968 120.544994,31.302758</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00053">
+      <name>140</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>140</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>140</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>90.07661</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>297.670825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545153,31.303845 120.545169,31.303785 120.545494,31.303843 120.545479,31.303903 120.545153,31.303845</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00054">
+      <name>195</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>195</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>195</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>33.916724</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>70.083218</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545150,31.303484 120.545169,31.303410 120.545232,31.303422 120.545212,31.303495 120.545150,31.303484</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00055">
+      <name>196</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>196</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>196</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>32.461871</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>64.893632</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545066,31.303807 120.545084,31.303739 120.545146,31.303750 120.545129,31.303818 120.545066,31.303807</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00056">
+      <name>194</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>194</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>194</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>28.701589</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>51.480385</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545060,31.303832 120.545122,31.303843 120.545108,31.303897 120.545045,31.303886 120.545060,31.303832</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00057">
+      <name>139</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>139</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Polygon</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>name</td>
+<td>139</td>
+</tr>
+<tr>
+<td>type</td>
+<td>商店</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>SHAPE_Length</td>
+<td>89.373836</td>
+</tr>
+<tr>
+<td>SHAPE_Area</td>
+<td>284.673962</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>id</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>refPOIId</td>
+<td>&lt;Null&gt;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs><LinearRing><coordinates> 120.545153,31.303845 120.545479,31.303903 120.545464,31.303960 120.545139,31.303903 120.545153,31.303845</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="PolyStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff000000</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff877540</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle011">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff000000</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00ffffff</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
