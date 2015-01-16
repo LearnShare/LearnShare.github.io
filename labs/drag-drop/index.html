@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Drag & Drop</title>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
+	<style>
+		article{
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		ol{
+			border: solid 1px #DDD;
+		}
+		ol li{
+			border-left: solid 1px #DDD;
+			border-bottom: solid 1px #DDD;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+		ol li:last-child{
+			border-bottom: none;
+		}
+		ol li a{
+			display: block;
+			padding: 6px 10px;
+			text-decoration: none;
+			color: #666;
+			cursor: move;
+		}
+	</style>
+</head>
+<body>
+	<article>
+		<p>Open Dev-Tool Console Tab</p>
+		<ol id="list">
+			<li>
+				<a href="#" dragable data-index="0">1. Walk</a>
+			</li>
+			<li>
+				<a href="#" dragable data-index="1">2. Run</a>
+			</li>
+			<li>
+				<a href="#" dragable data-index="2">3. Bike</a>
+			</li>
+			<li>
+				<a href="#" dragable data-index="3">4. Train</a>
+			</li>
+			<li>
+				<a href="#" dragable data-index="4">5. Bus</a>
+			</li>
+			<li>
+				<a href="#" dragable data-index="5">6. Car</a>
+			</li>
+			<li>
+				<a href="#" dragable data-index="6">7. Plane</a>
+			</li>
+		</ol>
+	</article>
+</body>
+</html>
