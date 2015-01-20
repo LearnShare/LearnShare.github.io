@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RegExp Test</title>
+	<style>
+		body{
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		article{
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		.row{
+			margin: 20px 0;
+		}
+		#pattern,
+		#string{
+			width: 100%;
+			padding: 10px;
+			font-size: 20px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		#process{
+			padding: 6px 10px;
+		}
+		mark{
+			background-color: #99F;
+			color: #FFF;
+			padding: 0 1px;
+			margin-right: 1px;
+		}
+		#result{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<article>
+		<div class="row">
+			<label for="string">
+				<textarea id="string" placeholder="string"></textarea> 
+			</label>
+		</div>
+		<div class="row">
+			<label for="pattern">
+				<textarea id="pattern" placeholder="pattern"></textarea> 
+			</label>
+		</div>
+		<div class="row">
+			<label for="i">
+				<input type="checkbox" id="i">
+				<span>ignoreCase</span>
+			</label>
+			<label for="g">
+				<input type="checkbox" id="g">
+				<span>globle</span>
+			</label>
+			<label for="m">
+				<input type="checkbox" id="m">
+				<span>multiline</span>
+			</label>
+			<button id="process">process</button>
+		</div>
+		<div class="row" id="result"></div>
+	</article>
+	<script>
+		window.onload = function(){
+			var processBtn = document.getElementById("process");
+			processBtn.addEventListener("click", function(){
+				process();
+			});
+		};
+
+		function process(){
+			var string = document.getElementById("string").value;
+			var pattern = document.getElementById("pattern").value;
+
+			var attributes = "";
+
+			var i = document.getElementById("i");
+			if(i.checked){
+				attributes += "i";
+			}
+			var g = document.getElementById("g");
+			if(g.checked){
+				attributes += "g";
+			}
+			var m = document.getElementById("m");
+			if(m.checked){
+				attributes += "m";
+			}
+
+			var reg = new RegExp(pattern, attributes);
+
+			if(string){
+				var result = string.replace(reg, "<mark>$&</mark>");
+				document.getElementById("result").innerHTML = result;
+			}
+		}
+	</script>
+</body>
+</html>
