@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API Test</title>
+	<style>
+		body{
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		article{
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		.row{
+			margin: 20px 0;
+		}
+		#url,
+		#data{
+			width: 100%;
+			padding: 10px;
+			font-size: 20px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		#send{
+			padding: 6px 10px;
+		}
+		mark{
+			background-color: #99F;
+			color: #FFF;
+			padding: 0 1px;
+			margin-right: 1px;
+		}
+		#result{
+			font-size: 20px;
+			white-space: pre;
+		}
+	</style>
+</head>
+<body>
+	<article>
+		<div class="row">
+			<label for="url">
+				<textarea id="url" placeholder="url"></textarea> 
+			</label>
+		</div>
+		<div class="row">
+			<label for="data">
+				<textarea id="data" placeholder="data"></textarea> 
+			</label>
+		</div>
+		<div class="row">
+			<label for="method">
+				<span>method: </span>
+				<select name="method" id="method">
+					<option value="GET">GET</option>
+					<option value="POST">POST</option>
+					<option value="PUT">PUT</option>
+					<option value="DELETE">DELETE</option>
+				</select>
+			</label>
+			<button id="send">send</button>
+		</div>
+		<div class="row" id="result"></div>
+	</article>
+	<script src="./jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#send").on("click", function(){
+				send();
+			});
+		});
+
+		function send(){
+			var url = $("#url").val();
+			var data = $("#data").val();
+			var method = $("#method").val();
+
+			$.ajax({
+				type: method,
+				url: url,
+				data: JSON.parse(data)
+			})
+			.done(function(res){
+				$("#result").text(JSON.stringify(res));
+			})
+			.fail(function(e){
+				$("#result").text(JSON.stringify(e));
+			});
+		}
+	</script>
+</body>
+</html>
