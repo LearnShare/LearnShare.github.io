@@ -1,0 +1,5 @@
+define([
+	"./indexCtrl",
+	"./testCtrl",
+	"./newCtrl"
+]);
