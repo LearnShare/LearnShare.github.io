@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Grid24</title>
+	<!-- <link rel="stylesheet" href="./css/grid24.css"> -->
+	<link rel="stylesheet/less" type="text/css" href="css/grid24.less">
+	<script src="./js/less.min.js"></script>
+</head>
+<body>
+	<h1>Grid-24</h1>
+	<p>@LearnShare</p>
+	<h2>1. width = col/24*100%</h2>
+	<div class="row">
+		<div class="col">col</div>
+		<div class="col col-1">1</div>
+		<div class="col col-23">23</div>
+		<div class="col col-2">2</div>
+		<div class="col col-22">22</div>
+		<div class="col col-3">3</div>
+		<div class="col col-21">21</div>
+		<div class="col col-4">4</div>
+		<div class="col col-20">20</div>
+		<div class="col col-5">5</div>
+		<div class="col col-19">19</div>
+		<div class="col col-6">6</div>
+		<div class="col col-18">18</div>
+		<div class="col col-7">7</div>
+		<div class="col col-17">17</div>
+		<div class="col col-8">8</div>
+		<div class="col col-16">16</div>
+		<div class="col col-9">9</div>
+		<div class="col col-15">15</div>
+		<div class="col col-10">10</div>
+		<div class="col col-14">14</div>
+		<div class="col col-11">11</div>
+		<div class="col col-13">13</div>
+		<div class="col col-12">12</div>
+		<div class="col col-12">12</div>
+		<div class="col col-24">24</div>
+	</div>
+	<h2>2. same col margin</h2>
+	<div class="row mg">
+		<div class="col">col</div>
+		<div class="col col-1">1</div>
+		<div class="col col-23">23</div>
+		<div class="col col-2">2</div>
+		<div class="col col-22">22</div>
+		<div class="col col-3">3</div>
+		<div class="col col-21">21</div>
+		<div class="col col-4">4</div>
+		<div class="col col-20">20</div>
+		<div class="col col-5">5</div>
+		<div class="col col-19">19</div>
+		<div class="col col-6">6</div>
+		<div class="col col-18">18</div>
+		<div class="col col-7">7</div>
+		<div class="col col-17">17</div>
+		<div class="col col-8">8</div>
+		<div class="col col-16">16</div>
+		<div class="col col-9">9</div>
+		<div class="col col-15">15</div>
+		<div class="col col-10">10</div>
+		<div class="col col-14">14</div>
+		<div class="col col-11">11</div>
+		<div class="col col-13">13</div>
+		<div class="col col-12">12</div>
+		<div class="col col-12">12</div>
+		<div class="col col-24">24</div>
+	</div>
+	<h2>3. responsive</h2>
+	<div class="row">
+		<div class="col">col</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">01</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">02</div>
+		<div class="col a-24 b-12">03</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">04</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">05</div>
+		<div class="col a-24 b-12 c-8">06</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">07</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">08</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">09</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">10</div>
+		<div class="col a-6">11</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">12</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">13</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">14</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">15</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">16</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">17</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">18</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">19</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">20</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">21</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">22</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">23</div>
+		<div class="col a-24 b-12 c-8 d-6 e-4 f-2">24</div>
+	</div>
+	<h2>4. container</h2>
+	<div class="container">container</div>
+	<h2>5. container with responsive rows</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col a-24 b-12 c-8 d-6 e-4">1</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">2</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">3</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">4</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">5</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">6</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">7</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">8</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">9</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">10</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">11</div>
+			<div class="col a-24 b-12 c-8 d-6 e-4">12</div>
+		</div>
+	</div>
+	<h2>6. col with offset</h2>
+	<div class="row">
+		<div class="col col-23 oft-1">1</div>
+		<div class="col col-22 oft-2">2</div>
+		<div class="col col-21 oft-3">3</div>
+		<div class="col col-20 oft-4">4</div>
+		<div class="col col-19 oft-5">5</div>
+		<div class="col col-18 oft-6">6</div>
+		<div class="col col-17 oft-7">7</div>
+		<div class="col col-16 oft-8">8</div>
+		<div class="col col-15 oft-9">9</div>
+		<div class="col col-14 oft-10">10</div>
+		<div class="col col-13 oft-11">11</div>
+		<div class="col col-12 oft-12">12</div>
+		<div class="col col-11 oft-13">13</div>
+		<div class="col col-10 oft-14">14</div>
+		<div class="col col-9 oft-15">15</div>
+		<div class="col col-8 oft-16">16</div>
+		<div class="col col-7 oft-17">17</div>
+		<div class="col col-6 oft-18">18</div>
+		<div class="col col-5 oft-19">19</div>
+		<div class="col col-4 oft-20">20</div>
+		<div class="col col-3 oft-21">21</div>
+		<div class="col col-2 oft-22">22</div>
+		<div class="col col-1 oft-23">23</div>
+	</div>
+</body>
+</html>

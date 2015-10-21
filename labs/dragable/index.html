@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dragable</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      overflow: hidden;
+    }
+    .area {
+      border: solid 1px #CCC;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    #area1 {
+      height: 400px;
+    }
+    #area2 {
+      height: 100px;
+    }
+    #area3 {
+      width: 100px;
+      height: 400px;
+    }
+    .dragable {
+      width: 50px;
+      height: 50px;
+      border: solid 1px #CCF;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+    }
+    #dragable1 {
+      cursor: move;
+    }
+    #dragable2 {
+      cursor: e-resize;
+    }
+    #dragable3 {
+      cursor: s-resize;
+    }
+  </style>
+  <script src="./js/lib/dragable.js"></script>
+  <script>
+    window.onload = function() {
+      var dragable1 = new Dragable({
+        target: document.getElementById('dragable1'),
+        inRect: true,
+        onMove: function(d) {
+          // console.log(d);
+        }
+      });
+
+      var dragable2 = new Dragable({
+        target: document.getElementById('dragable2'),
+        direction: 'x',
+        inRect: true
+      });
+
+      var dragable3 = new Dragable({
+        target: document.getElementById('dragable3'),
+        direction: 'y',
+        inRect: true
+      });
+    };
+  </script>
+</head>
+<body>
+  <div class="area" id="area1">
+    <div class="dragable" id="dragable1">drag</div>
+  </div>
+  <div class="area" id="area2">
+    <div class="dragable" id="dragable2">dragx</div>
+  </div>
+  <div class="area" id="area3">
+    <div class="dragable" id="dragable3">dragy</div>
+  </div>
+</body>
+</html>

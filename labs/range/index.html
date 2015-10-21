@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Range</title>
+  <style>
+    body {
+      background-color: #E5E5E5;
+    }
+    #range {
+      height: 50px;
+      background-color: #666;
+      position: relative;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+    }
+    .range {
+      display: inline-block;
+      position: relative;
+      height: 50px;
+      width: 0;
+      left: 0;
+      background-color: #AAF;
+      cursor: move;
+    }
+    .seeker {
+      display: inline-block;
+      height: 50px;
+      width: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .seeker.left {
+      left: 0;
+    }
+    .seeker.right {
+      left: 0;
+    }
+    .seeker:after {
+      content: '';
+      width: 4px;
+      height: 100%;
+      background-color: #FF0;
+      position: absolute;
+      top: 0;
+      left: -2px;
+      cursor: e-resize;
+    }
+  </style>
+  <script src="./js/lib/dragable.js"></script>
+  <script src="./js/lib/ui-range.js"></script>
+  <script>
+    window.onload = function() {
+      var uiRange = new UIRange({
+        target: document.getElementById('range'),
+        onChange: function(range) {
+          console.log(range);
+        }
+      });
+    };
+  </script>
+</head>
+<body>
+  <div id="range" class="ui-range">
+    <div class="range"></div>
+    <div class="seeker left"></div>
+    <div class="seeker right"></div>
+  </div>
+</body>
+</html>
